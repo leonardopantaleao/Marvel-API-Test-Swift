@@ -12,9 +12,15 @@ struct PrimaryActionButton: View {
     let title: String
     let foregroundColor: Color
     let backgroundColor: Color
-    let action: () -> ()
+    let action: () -> Void
     let icon: Image?
-    init(title: String, foregroundColor: Color, backgroundColor: Color, action: @escaping () -> Void, icon: Image? = nil) {
+    init(
+        title: String,
+        foregroundColor: Color,
+        backgroundColor: Color,
+        action: @escaping () -> Void,
+        icon: Image? = nil
+    ) {
         self.title = title
         self.foregroundColor = foregroundColor
         self.backgroundColor = backgroundColor

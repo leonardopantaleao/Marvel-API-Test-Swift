@@ -12,7 +12,6 @@ class LoginViewModel: ObservableObject {
     @Published var md5Hash = ""
     @Published var showError = false
     @Published var isShowingMainView = false
-    
     func tryItOutButtonTapped() {
         if !self.publicKey.isEmpty && !self.md5Hash.isEmpty {
             self.showError = false

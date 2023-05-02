@@ -10,66 +10,60 @@ import XCTest
 
 final class LoginTests: XCTestCase {
     var sut: LoginViewModel!
-    
     override func setUp() {
         UserDefaults.standard.removeObject(forKey: "publicKey")
         UserDefaults.standard.removeObject(forKey: "md5Hash")
         self.sut = LoginViewModel()
         super.setUp()
     }
-    
     override func tearDown() {
         UserDefaults.standard.removeObject(forKey: "publicKey")
         UserDefaults.standard.removeObject(forKey: "md5Hash")
         self.sut = nil
         super.tearDown()
     }
-    
     func testBothFieldsEmpty() {
-        //given
+        // given
         self.sut.publicKey = ""
         self.sut.md5Hash = ""
-        //when
+        // when
         self.sut.tryItOutButtonTapped()
-        //then
+        // then
         XCTAssertEqual(UserDefaults.standard.string(forKey: "publicKey") ?? "", "")
         XCTAssertEqual(UserDefaults.standard.string(forKey: "md5Hash") ?? "", "")
         XCTAssertTrue(self.sut.showError)
     }
-    
     func testPublicKeyEmpty() {
-        //given
+        // given
         self.sut.publicKey = ""
         self.sut.md5Hash = "testMd5Hash"
-        //when
+        // when
         self.sut.tryItOutButtonTapped()
-        //then
+        // then
         XCTAssertEqual(UserDefaults.standard.string(forKey: "publicKey") ?? "", "")
         XCTAssertEqual(UserDefaults.standard.string(forKey: "md5Hash") ?? "", "")
         XCTAssertTrue(self.sut.showError)
         XCTAssertFalse(self.sut.isShowingMainView)
     }
-    
     func testMD5HashEmpty() {
-        //given
+        // given
         self.sut.publicKey = "testPublicKey"
         self.sut.md5Hash = ""
-        //when
+        // when
         self.sut.tryItOutButtonTapped()
-        //then
+        // then
         XCTAssertEqual(UserDefaults.standard.string(forKey: "publicKey") ?? "", "")
         XCTAssertEqual(UserDefaults.standard.string(forKey: "md5Hash") ?? "", "")
         XCTAssertTrue(self.sut.showError)
         XCTAssertFalse(self.sut.isShowingMainView)
     }
-    
     func testFieldsStoredSuccessfully() {
-        //given
+        // given
         self.sut.publicKey = "testPublicKey"
         self.sut.md5Hash = "testMd5Hash"
-        //when
+        // when
         self.sut.tryItOutButtonTapped()
-        //then
+        // then
         XCTAssertEqual(UserDefaults.standard.string(forKey: "publicKey") ?? "", "testPublicKey")
         XCTAssertEqual(UserDefaults.standard.string(forKey: "md5Hash") ?? "", "testMd5Hash")
         XCTAssertFalse(self.sut.showError)
