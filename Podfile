@@ -5,6 +5,7 @@ target 'MarvelAPI' do
   use_frameworks!
   pod 'SwiftLint'
   pod 'Alamofire'
+  pod 'lottie-ios'
 
   target 'MarvelAPITests' do
     inherit! :search_paths
