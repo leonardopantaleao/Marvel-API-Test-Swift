@@ -1,0 +1,1866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39967A2F461C223F83E640F06CC73722 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		012FC7E01CA2206FA374418A23083CC2 /* MKBProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 296255424C7AE5DDBF74D913726B3F6A /* MKBProperty.m */; };
+		01BAA5DB6522A7CD4228CAB1EBD65149 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5102C6091E8114B4E7BC26D83F6A630D /* Foundation.framework */; };
+		027143A0A1A25BCBAC9182309E9A345A /* MKBDoubleInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FEC8EB550E108AD2967DE28EAD4637 /* MKBDoubleInvocationHandler.m */; };
+		045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A225535A82DB1EDE51EAD01B7A4C3C1B /* RedirectHandler.swift */; };
+		04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D486EF1533154399D2122A71B18D3F6 /* Result+Alamofire.swift */; };
+		093E40682591FD3B72D432563652579F /* MKBComparator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DC2BFB536232B0AF47DC4D50DB4AD33 /* MKBComparator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D40058834D3D0CCFB55085B025057F5 /* MKBLongLongInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A56E9C9500A4E865AC07054102B755CF /* MKBLongLongInvocationHandler.m */; };
+		0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5102C6091E8114B4E7BC26D83F6A630D /* Foundation.framework */; };
+		11E81399B385C451FEF1F06345F9E63B /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E5CB5FCD56CC2CAE5D5F4E70D83023 /* Version.swift */; };
+		122866B0241C357DC54B7BF62516356A /* OrderedVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDD359B48798DE5A63CE3EA6EAD2773 /* OrderedVerification.swift */; };
+		12C59D7E18E39E98B03D2A1D2D232380 /* MKBMocking.h in Headers */ = {isa = PBXBuildFile; fileRef = E85DED3637A2AC478A0F9CF64A2DBF82 /* MKBMocking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14150D10AB4137CE28D7F9AADB2B123B /* StubbingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC376186EAB1ACAF3F1812AD3C90840 /* StubbingContext.swift */; };
+		1459652B8913C4FFDB7B466C561B4B33 /* Mockingbird.h in Headers */ = {isa = PBXBuildFile; fileRef = AE184502B2E26D86CE67B8CEBACECD04 /* Mockingbird.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		149B0669D764EA757CEE658CB3557CA1 /* MKBStructInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B8120D2466EF0A6B1B3FA2D95E12A421 /* MKBStructInvocationHandler.m */; };
+		1818564D58842892F0C422989B54E373 /* StubbingContext+ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E75990974CAA284C757DC0E895A7FBD /* StubbingContext+ObjC.swift */; };
+		18ADDA0D3B787779CBE20AA23F77B918 /* MKBInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEF47EB905E140C33AD24B65B1CDE00 /* MKBInvocationHandler.m */; };
+		195425110C6E7A2CA158324BE23BDA59 /* Pods-MarvelAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A312F961D5F21962235E4D726200FC /* Pods-MarvelAPI-dummy.m */; };
+		1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0A72895CC2C74C37D17AFD346CEBF /* SessionDelegate.swift */; };
+		1BEB510F9049ED18583701CC3D5D1D90 /* ArgumentMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE83E36308028770F454268D1049ABD /* ArgumentMatcher.swift */; };
+		1D0F2CAE3238CBA85827627FE230FBE7 /* Pods-MarvelAPI-MarvelAPIUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E511207703CEFA7CFB8E5AC31A1295 /* Pods-MarvelAPI-MarvelAPIUITests-dummy.m */; };
+		1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFA26A9387A1CBBAC3C3DEE35AC05A4 /* AlamofireExtended.swift */; };
+		1F325508B87C731E972744480D825924 /* MKBClassMock.h in Headers */ = {isa = PBXBuildFile; fileRef = C2E3F9C34BEB9D76AEB7E6A37F75C9A7 /* MKBClassMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FBE2156B53945DD372D80A8C42AB26F /* TestFailure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713557684F73DE7294C40A5A67695132 /* TestFailure.swift */; };
+		215588030575EA09B8C09D5C9EF72FE3 /* Pods-MarvelAPITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E954302F48090D7A544F77B413C729BF /* Pods-MarvelAPITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21DCB06756FFC6A28A223DB0795D40E4 /* MKBStructInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB3ADE4DEE512B523C1C9B21D54FF51 /* MKBStructInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2675F8EC2CD5D9CF0F6FDC369A09BC6C /* MKBFloatInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF79334EE2FBF83FA390388EB368ED6 /* MKBFloatInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AF4FF307196790D04E717B45C831658 /* ProxyContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CA0F6BDC78BC49F4FAF7B37AE9EEFC /* ProxyContext.swift */; };
+		2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14A5BEFF3CB6471A46C3CE1235314DC /* CachedResponseHandler.swift */; };
+		2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58909D7129D6D4C143D2BAFEBE25CEBC /* Notifications.swift */; };
+		2DB2794D357863D8E1EE60E7D3E8D8F4 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD1D013F0139A32DC6AF6E06CE15C96 /* Array+Extensions.swift */; };
+		2F3202C648917BC07EBF2B145755A49A /* String+ControlCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A207D80512D37D996DCE47B8EBE8E26 /* String+ControlCodes.swift */; };
+		31374437A8A3C2DC0198B8EDFB470555 /* AsyncVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425FE79DE20371495B2E307BC441BAAC /* AsyncVerification.swift */; };
+		33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2266F6A7122885EC9153B832275A00 /* RetryPolicy.swift */; };
+		345BF19E8167BCA9515A6BE6CB2B0922 /* MKBInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F1DFF2F1D4FC742493D90C8EE57A09 /* MKBInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3611DC6DA6919D1EACBC218C05713BB1 /* XCTFailSwizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75336302A68BB91181FC854121FC888 /* XCTFailSwizzler.swift */; };
+		374C01C3F9FDAC1BE79C1180D2A56926 /* MKBPointerInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1E182FE76EA1093529BC7BF00F01CD /* MKBPointerInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37EF125311EF2C705649D731FD8B4DDB /* WildcardMatchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CECB2207A26BB8BE5A711AAF5D4B73 /* WildcardMatchers.swift */; };
+		390305A3863038E44BC034FB5A3A84CA /* MKBProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA2F02FF235B84A66197448EC98432D /* MKBProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A889E05BC34BB632912D7A935648EE9 /* MKBObjectInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E68E738AB302DC93A9FA30C4845E648A /* MKBObjectInvocationHandler.m */; };
+		3A8F64F2372895BF643016E6852C8FAF /* MKBLongInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 603F1C15110DABED7253B733BA4650BB /* MKBLongInvocationHandler.m */; };
+		3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4EB01A739E56F43F44D14386A58E5 /* Validation.swift */; };
+		3C75E519C426E6B8346063910DAAD695 /* Stubbing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB9B5C54E995061D6A85EDF9A2DCA4 /* Stubbing.swift */; };
+		3E3539F0033F85CFF3580C465C391417 /* MonotonicIncreasingIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61E05F26569B34554037B7AB95BB5BC /* MonotonicIncreasingIndex.swift */; };
+		3F263CFFE78AE38DA4972BAED310A80C /* MKBInvocationHandlerChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FB1B9A30FDC7C97BFFE0CCBC75145E9 /* MKBInvocationHandlerChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		404CF19775F988F39BE7CEDAC72333FB /* ValueProvider+Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = C027586EF3A398B495CB713AAAB24978 /* ValueProvider+Collections.swift */; };
+		449B03797CDDB69216AB4F654DB6345C /* MKBCharInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 897188B686AD5C82D69CBDA033D92CAE /* MKBCharInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44CF6AE12DAED6072D2DB734DAD6435F /* MKBTestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A26C24C97C33E33E3BD04AC30B33320 /* MKBTestUtils.m */; };
+		455A8BF7E4758018D465627930EF06D2 /* MKBUnsignedIntInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE905AFA17FDA5815BE3D8BD7B65DF8 /* MKBUnsignedIntInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		469C18DA292AD10CD963F0805D37F15E /* MKBSelectorInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C79A73BDCDB535A237817F4A53A346 /* MKBSelectorInvocationHandler.m */; };
+		46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB66F9A9E2C226810B2B0CDDE75AC155 /* Combine.swift */; };
+		48D9E35F50DE7C89E64A0356181E545B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5102C6091E8114B4E7BC26D83F6A630D /* Foundation.framework */; };
+		4A0FA0A904A00548C170559D8B8EA05C /* NonEscapingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86989FC9AFCF8B8273BB32B740A812B0 /* NonEscapingType.swift */; };
+		4E8889345DA23C9990F7AAC1BA25A04C /* StackTrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC302A3DB333B2FCB15A1CCADDBB55 /* StackTrace.swift */; };
+		5234E978ED1578507733706B55621AAE /* MKBUnsignedLongLongInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C802FF0D987E263754885A106B07E3EB /* MKBUnsignedLongLongInvocationHandler.m */; };
+		5277E11E6737F1287227823140B0760E /* MKBCharInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DC10135655DA1AE1C8F3961DB86A4DFE /* MKBCharInvocationHandler.m */; };
+		52B6F980BC534DCB34FB56B87F01A57C /* ArgumentPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D3B799E845DCD18AE840F99C4C21E1 /* ArgumentPosition.swift */; };
+		52CDB4D273E41A17962025FE49A51F64 /* GenericStaticMockContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A94A9B063B4BE37E5108E339FF45E07 /* GenericStaticMockContext.swift */; };
+		55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D111FA8D0F94248648728CD49B5525 /* Alamofire-dummy.m */; };
+		566BA02DA9C0C10299E6768DB1CE9A71 /* MKBBoolInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 11594D982C06ACAD599EE51DB8EED443 /* MKBBoolInvocationHandler.m */; };
+		591DE656B7CA79DEA5333BC06C424648 /* MKBClassMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2DA1CD406E3E7383C50A6232F32BC /* MKBClassMock.m */; };
+		598CEFADE44CFD6B1FBD2A6F92C9BC94 /* MKBCStringInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE3A72E5CFAA3CC17EA19754B4CE3F8 /* MKBCStringInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A40B6B5B34C45015F26968B33383CD0 /* PropertyProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E1488EE7CAB5CD7C0D378F47CD240 /* PropertyProviders.swift */; };
+		5C2BEFB239837F153A00F6FF4A7EC083 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0923118B3DB6159342FACD4F610B8DE0 /* Verification.swift */; };
+		5EDE5E8768748121AEDDE11861258FDA /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1445B3873D5A3C239740F66C0FAE5770 /* Context.swift */; };
+		61EBFC59C163F93AD7C9BE594CC3B132 /* MKBConcreteMock.m in Sources */ = {isa = PBXBuildFile; fileRef = E682A125A92F5CC474B0F0810482C458 /* MKBConcreteMock.m */; };
+		6233138F084FD8D30FE6D70A4C4B6BEC /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFE0739E06BC2E4DCEB3BC38EB6D1DE /* Optional+Extensions.swift */; };
+		64206CA0E3107DFBEC950E09758826BB /* ValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659605854707B61C45911BAB18770C73 /* ValueProvider.swift */; };
+		66931DA832FF9823FD71F4A6DE2A833D /* MKBPointerInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CFC420C987F63E0F64E6703B891876 /* MKBPointerInvocationHandler.m */; };
+		67D3A3909CFE29E0639510B5EB9665E4 /* ImplementationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C002FAE6BFE456036B1CAB891118661 /* ImplementationProvider.swift */; };
+		67E2B7CDE02F289594B9E9ADD9AB4A5F /* NSInvocation+MKBErrorObjectType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D8D0C63A83C2499D5429250F38E4BE5 /* NSInvocation+MKBErrorObjectType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68EB2AF22B61F860A22F21DB2E1F25B8 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2D8FEBFB9A979957D9C8E8FFA86542 /* Mock.swift */; };
+		68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BAEAA8973DA57958D96603F5D5D0B6 /* ParameterEncoding.swift */; };
+		6A8AE48A7088373ADDDEAEFE7F1C8AB1 /* MKBLongInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 536DBC7C02CC612597790E7D450B48F4 /* MKBLongInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A9AF91D022CFD75F8D197C171507602 /* MockingbirdFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCB4FBD12EBD17F6832899929B129FF /* MockingbirdFramework-dummy.m */; };
+		6F780C8ECD8ED5DC0193F0179FE4161E /* CollectionMatchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173D6F8B113DCC6272A785DBA9C4D23A /* CollectionMatchers.swift */; };
+		7386C8860E69CAE60D11D9E9D679F05C /* ArgumentCaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC93B0EDF05956006ABEFE2D4A3E50B5 /* ArgumentCaptor.swift */; };
+		7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21BD0A698A51B19018B3694D301242B /* AuthenticationInterceptor.swift */; };
+		757BE38256033D7C70889EE3E1F36830 /* MKBUnsignedCharInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CB00088E8AACBD569F80E770458784DF /* MKBUnsignedCharInvocationHandler.m */; };
+		75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED9276A738DEF6430675C43EDCE12E9 /* Response.swift */; };
+		7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C225C9BBA08A59E3EB31B8A32F33C9 /* URLEncodedFormEncoder.swift */; };
+		7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0905F6372BF28BF22D75143A5FB617 /* CFNetwork.framework */; };
+		7D0794C8DAC9EB62A10097BB1416AC06 /* String+Interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483CB4813D57F9C238104519F3F2BBB4 /* String+Interpolation.swift */; };
+		7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A8CF256E17B8D3658E7AFE8C40C26 /* HTTPHeaders.swift */; };
+		7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4D57F5513B880C47F94F85A300B7B1 /* StringEncoding+Alamofire.swift */; };
+		7F3F7CB32BE8E0B7EDDE92B1C55FCB56 /* NSInvocation+MKBErrorObjectType.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AEFBAF497E05AA770FAD3B5CF88092 /* NSInvocation+MKBErrorObjectType.m */; };
+		7FC349F0DC8CD2B3C6AE109C750B8C81 /* MKBUnsignedLongInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5291EEF731E1D6A1318C914B5BE3ED83 /* MKBUnsignedLongInvocationHandler.m */; };
+		7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C39E2B367F06EE31BE46EBB4BB3B70F /* MultipartFormData.swift */; };
+		7FE91A3A30666B3C318CEE5A1D2EB38A /* ExpectationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C3C1EBC859E64D5D9042D37073DA8 /* ExpectationGroup.swift */; };
+		808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35833E1C94F18BC8EDBE72538C95AE1E /* URLSessionConfiguration+Alamofire.swift */; };
+		81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A71A2A015EAF14D82A204284ADF27 /* Session.swift */; };
+		824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD132F231BBFFDBAB12DF785B2BFACF4 /* ResponseSerialization.swift */; };
+		82C092CA31BC9084972CFC9CA014C76E /* MKBLongLongInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D676C0C5EF15C377C3679B60A41A5B22 /* MKBLongLongInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85B150D4A1DCBD4FA31ED657DFC68034 /* MKBIntInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B3583F63CF53873E8F4CC4EE469B458C /* MKBIntInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85BF71F45B9B7AA0664E6DF9C86C3373 /* MKBUnsignedIntInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6610E1405F7D86FCD1CB748C7E45C50C /* MKBUnsignedIntInvocationHandler.m */; };
+		85CAD5C30CED4F5A2792133ED94D144C /* MKBIntInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 232D3F7C479F79E157AC43B66F227FA8 /* MKBIntInvocationHandler.m */; };
+		8673E9EDF9BDED0E4644B1BD28F5721F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5102C6091E8114B4E7BC26D83F6A630D /* Foundation.framework */; };
+		893C460479F364137E1DA8F41F81077C /* InvocationForwarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D30A7D1D51923F0D3DFC8ED18637C /* InvocationForwarding.swift */; };
+		8AFCF85552C9759AF4D99C43AFE3FAB9 /* ValueProvider+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2E257A5E41B0FC39395049F7D5DE8 /* ValueProvider+Foundation.swift */; };
+		8B49F934684D05ACE34307237F42AEAD /* MKBShortInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3B5A66E36E7F49BAFD02226AD5085E /* MKBShortInvocationHandler.m */; };
+		8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B777727374FF2965313CA8A7C4639D75 /* URLConvertible+URLRequestConvertible.swift */; };
+		8E2529876DF4C9C29B9BFE968816C7F3 /* Pods-MarvelAPITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 964736151CB18ED4D980EC5D349DE337 /* Pods-MarvelAPITests-dummy.m */; };
+		8EBEA81B1B6CBD2A1D5FE95F361031D3 /* MKBTestExpectation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F245020CC76EA3D17897F523D09EF12 /* MKBTestExpectation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C6977A48815A2EA2AF94AAA7AA0AE0 /* MKBProtocolMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8759A30347451D7B07A5424E71707C16 /* MKBProtocolMock.m */; };
+		9877AE1FEA4ECB0197C00B915854708C /* SequenceProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99117169FAA09D8C1344CD352BF1DD73 /* SequenceProviders.swift */; };
+		991C1D7D52C40E5B1D1066417946DC6C /* MKBUnsignedShortInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA0DD69009110D8BE0128B0A735D585 /* MKBUnsignedShortInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B373829648EAB2190B2106DA72A9201 /* ParameterEncoder.swift */; };
+		9AE095F730BF01D3AB3D6059F5EBDD81 /* MKBObjectInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8396A5FC11ED2D5C360C9EE4C8A769A5 /* MKBObjectInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B036963C5EFE387222BCEFA4799D8AC /* ProcessInfo+ControlCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A850C1FC25299FC90C0AF2A06342ED7 /* ProcessInfo+ControlCodes.swift */; };
+		9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBCFF55B7555BC9821E3ED6322EF3C4 /* Concurrency.swift */; };
+		9CB35EFEFE34F3923A0305A9C0FCAECB /* MKBClassInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 98DCDC55BE4456EEDF0D75740649FAE3 /* MKBClassInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1B883373401B737E1174716C5984A /* NetworkReachabilityManager.swift */; };
+		A4601DAB4ED83D04B57248B67D7BC28C /* TypeFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD206389FA4FCF57D4B9371B227BEAD /* TypeFacade.swift */; };
+		A4C777FFE5049EABF8A7E76366BDE977 /* MKBMocking.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5A39C1DAFC28C0BDA1A246CAC561D /* MKBMocking.m */; };
+		A4D9CAFCF75FC0728222207620DBF150 /* MKBSelectorInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D96F892C5861FEB9EBC6C742630ABEF /* MKBSelectorInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB2587D75E5B48EDA798CB751DA1EB2 /* Protected.swift */; };
+		B06F8BF00683D679AF36F11AB1ADAC6D /* Pods-MarvelAPI-MarvelAPIUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2314844714270B6A5882344221426851 /* Pods-MarvelAPI-MarvelAPIUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B07AAAD343587E9E2CA376F9649BBA78 /* Mocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1DF1F0872122A4EEA8713B5505989 /* Mocking.swift */; };
+		B33DC77CADCC167791D05C6966C3DECE /* CwlDemangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74A88A2434FAD30FADA12ECC074DB3A /* CwlDemangle.swift */; };
+		B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EBE05DB34268DD5EAF86DDD350D5FB /* Request.swift */; };
+		B42B2EE344300B30DA26D63DFC380FFD /* ValueProvider+Tuples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B858B0091E6F75A1F96660BE6513175 /* ValueProvider+Tuples.swift */; };
+		B516FF8FE1B25C919C4EDCEA330BFCE2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4620FD8663B64CE89F7E94264B8A62B0 /* XCTest.framework */; };
+		B59E26D015442C6FEB1D3279443C09FF /* ObjCTypeEncodings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E92CCE7F6F709EA7389A4264C8DC42F /* ObjCTypeEncodings.swift */; };
+		B69EB2D06197C0F4470724D66A6D70D4 /* MKBComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1293BDFDF0ECCED043D879E7BC0F930A /* MKBComparator.m */; };
+		B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3236CD08E6F1A8B2C07CBD8F771A3 /* ServerTrustEvaluation.swift */; };
+		B99CED8A6A3648B97B3CD8F025AC90F7 /* MockingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73330ABD4A1929A9403486558DF7029 /* MockingContext.swift */; };
+		BB386EE83B0555832B06AABEA63F3737 /* MockingbirdFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ECBA8364A003D577362AEF68033224A /* MockingbirdFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBB0C49C181A0C94FFC5561467DC5604 /* DynamicCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960DA747BF44725A4937B070A1ABA320 /* DynamicCast.swift */; };
+		BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15388EF2F96DB6CABDD307E65CFA4FE /* URLRequest+Alamofire.swift */; };
+		C11790685B2405E487C83B6ECE000C21 /* MKBTypeFacade.h in Headers */ = {isa = PBXBuildFile; fileRef = 13EE5579BDBC10E3625B6D14E8EAFE1F /* MKBTypeFacade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C48B77A304805E02871FB0A41E05F31C /* Pods-MarvelAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05350A004EE636F525728A04313CD3AE /* Pods-MarvelAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7B6ED048674F040C45162DD84D9E1DB /* MKBUnsignedShortInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E42218D2B9B2496A750A27D8E0A8C1 /* MKBUnsignedShortInvocationHandler.m */; };
+		C84E960A25FC93CE16E5D05B6A817BF1 /* MKBUnsignedLongInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F2A11EF1DDB346B598BF461E90C735 /* MKBUnsignedLongInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C89652118FD9A8082FD0380B70FD7644 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90352ED13DE7D580ED308F43B30ED21D /* String+Extensions.swift */; };
+		CB89087649CF150813E75BA020942D79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5102C6091E8114B4E7BC26D83F6A630D /* Foundation.framework */; };
+		CD40BEEC1FBBEF9ECF3353DDB8285F19 /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF26B6AF76E751F84495FE9FC805A85 /* Synchronized.swift */; };
+		CD43F01C5730C0543D841C444C33DEEC /* MKBTestUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B12E2E2FC687937778E4041CAA830E /* MKBTestUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDAF911295A4ED94D6942CD685A41D2A /* Invocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F793952532917DDDC23DF6ADFC920EE5 /* Invocation.swift */; };
+		CDC70EBFE1FE530EEA821620AC5555AD /* MKBUnsignedCharInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E985830A7ADAA1D7FE97771CDBE52E /* MKBUnsignedCharInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE8CD32EF7BEDB28263C81FF021ABCB /* EventMonitor.swift */; };
+		CEE58AD7D1730AB249DA3F30C8EB6298 /* MKBCStringInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A54E42C3C93C1CB3A644ED87DBC8DB8C /* MKBCStringInvocationHandler.m */; };
+		D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5285E5B8900EE85149755D1BAA17E62 /* AFError.swift */; };
+		D1C7C37F94774A4EB6FC39451A7E24EB /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926535DC1FC7F901B28D661FDFC26D6C /* SourceLocation.swift */; };
+		D603BCBEA99CF0D47112CC09183AD673 /* InvocationRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F4422CFE00DFCD857B68A941800570 /* InvocationRecorder.swift */; };
+		D6548FAC9AC807E150C21B344DCB1396 /* MKBDoubleInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A6EB8EAE38B969627D7EE33172C6058 /* MKBDoubleInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAB2DF8CFFF52F80249BEF2D04519A /* HTTPMethod.swift */; };
+		DA06FFD56BE33756C5E4E9A646EE4A42 /* MKBTypeFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = 10296D1677069D5D521778909996D364 /* MKBTypeFacade.m */; };
+		DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC45A3EB66BD84460F0AAE90C7724FD /* RequestTaskMap.swift */; };
+		DC946362085EEE42A3C74A67BB2CE55C /* MKBTestExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = 12374B06AB845F20690FB353DDD2026F /* MKBTestExpectation.m */; };
+		DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A75682703D473B673E1126925D9C38 /* RequestInterceptor.swift */; };
+		DEDE87C8F47A88F108AE522F00F1ACA5 /* CountMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC7783E3D7A150455B64C3482AA6191 /* CountMatcher.swift */; };
+		E251EF97297CCF7D86DD163CF6B1327C /* MKBUnsignedLongLongInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4A760DAAF27D416EF8ADB13AD80D01 /* MKBUnsignedLongLongInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1E6D64CAB9559E5CFCFC752E6A0C9D /* OperationQueue+Alamofire.swift */; };
+		E5F78450BA44DE6C718BA603A961AFD7 /* MKBClassInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C5333322671E58B884F6F5E4CC62ABF9 /* MKBClassInvocationHandler.m */; };
+		E8698C57266048A79D7130158C9A8A74 /* MockingbirdBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8CA2DFEA7341E676F1D591C00BF3CB /* MockingbirdBridge.swift */; };
+		E876FD46CC867F452218E5BCE9D45839 /* MKBFloatInvocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 203E25126F695AA3A70D29A86F0A44A4 /* MKBFloatInvocationHandler.m */; };
+		E911A74C53CBD322966F2834F960A083 /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC1236A77E5B91B36951A1537580074 /* DefaultValues.swift */; };
+		E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2DF339B1EE843B82DB4F8F5F4EB955 /* MultipartUpload.swift */; };
+		EAA566DA4F4383F64CC816C5C92A9B22 /* DynamicStubbingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BCB6128779076525372718E0F18725 /* DynamicStubbingManager.swift */; };
+		EAF54545B54325D861DD42A83B056961 /* MKBConcreteMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 2414D173DC6B4229A6097A636E6BA747 /* MKBConcreteMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDFD8FE653B1259777316F275C54D804 /* MKBShortInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FD94C7B155DA9286E79AD2202ECD3480 /* MKBShortInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE18F1AB467673D8F9C36273A189D13A /* Data+SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DDAB2F2FD2813AF27D659B0F8AAA02 /* Data+SHA1.swift */; };
+		EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A64DDC144C36FEC43C2669D8EEF0205 /* DispatchQueue+Alamofire.swift */; };
+		F10CB6FFC8743778AD997611F14A7249 /* MKBBoolInvocationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E33B27B280A560F9D1D7B0F2160FCCC2 /* MKBBoolInvocationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED369A2F664CC84D8DB47655CA9798C /* Alamofire.swift */; };
+		F2E213C4C986BC919A1D14EE9AADCCF2 /* MKBProtocolMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 4012B644B784033884EF04262FDE4E51 /* MKBProtocolMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F709B621BCF03B238EE7227FE359A07E /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EDE827951192F19D28B0C81C5257CA /* String+Regex.swift */; };
+		F7533B2A621FD0FF28079C991DE9B34C /* MKBInvocationHandlerChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C0F31964B3D22E749B36286BE887B /* MKBInvocationHandlerChain.m */; };
+		F992B44BBD4D05644EAC5E853B002EED /* Declaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAB55491CC80B785A759BD68C5EF545 /* Declaration.swift */; };
+		FE2F7BC5015978DDC5C2EE76804F8534 /* Stubbing+ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3856A6AFF27C4AFB5CB136D155EA9E /* Stubbing+ObjC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03D42558CC0D5E1CD12FD73061681C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		40DC0EB661ACDBA7EA4175DD2CFCD96E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 726F07C78D1697B2EF6EED80C60E7B57;
+			remoteInfo = "Pods-MarvelAPI";
+		};
+		8EC765C3B2202BACF945252225DE5164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		B8A54385086DCCFAFB3C49E3B9A001AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		C312B2265E57D9A0269C32B1D0C07DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61D438AB40BE6FBCAA956367F495DF55;
+			remoteInfo = MockingbirdFramework;
+		};
+		EE5733C32839E53B2DBE1A6775EB6A42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DB9B5C54E995061D6A85EDF9A2DCA4 /* Stubbing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stubbing.swift; path = Sources/MockingbirdFramework/Stubbing/Stubbing.swift; sourceTree = "<group>"; };
+		01C21E102082845BB3B791A61CCEFC74 /* Pods-MarvelAPI-MarvelAPIUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarvelAPI-MarvelAPIUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		02D111FA8D0F94248648728CD49B5525 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		046A8CF256E17B8D3658E7AFE8C40C26 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		04FEC8EB550E108AD2967DE28EAD4637 /* MKBDoubleInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBDoubleInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBDoubleInvocationHandler.m"; sourceTree = "<group>"; };
+		05350A004EE636F525728A04313CD3AE /* Pods-MarvelAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarvelAPI-umbrella.h"; sourceTree = "<group>"; };
+		0923118B3DB6159342FACD4F610B8DE0 /* Verification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Verification.swift; path = Sources/MockingbirdFramework/Verification/Verification.swift; sourceTree = "<group>"; };
+		0B373829648EAB2190B2106DA72A9201 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		0B8CA2DFEA7341E676F1D591C00BF3CB /* MockingbirdBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MockingbirdBridge.swift; path = Sources/MockingbirdFramework/Utilities/MockingbirdBridge.swift; sourceTree = "<group>"; };
+		0BD2E257A5E41B0FC39395049F7D5DE8 /* ValueProvider+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ValueProvider+Foundation.swift"; path = "Sources/MockingbirdFramework/Stubbing/ValueProvider+Foundation.swift"; sourceTree = "<group>"; };
+		0DFC6E355AD1B8814F50175AF8E7BDF0 /* Pods-MarvelAPI-MarvelAPIUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarvelAPI-MarvelAPIUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0E7EF1DC040248BB52D21AFD0B4FAA02 /* Pods-MarvelAPI-MarvelAPIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelAPI-MarvelAPIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0ECFF79B8DEC27C3D7593335AE6CA283 /* Pods-MarvelAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		0ED9276A738DEF6430675C43EDCE12E9 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		0F2DF339B1EE843B82DB4F8F5F4EB955 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		10296D1677069D5D521778909996D364 /* MKBTypeFacade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBTypeFacade.m; path = "Sources/MockingbirdFramework/Objective-C/Bridge/sources/MKBTypeFacade.m"; sourceTree = "<group>"; };
+		11594D982C06ACAD599EE51DB8EED443 /* MKBBoolInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBBoolInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBBoolInvocationHandler.m"; sourceTree = "<group>"; };
+		12374B06AB845F20690FB353DDD2026F /* MKBTestExpectation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBTestExpectation.m; path = "Sources/MockingbirdFramework/Objective-C/Bridge/sources/MKBTestExpectation.m"; sourceTree = "<group>"; };
+		1293BDFDF0ECCED043D879E7BC0F930A /* MKBComparator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBComparator.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBComparator.m"; sourceTree = "<group>"; };
+		13E5CB5FCD56CC2CAE5D5F4E70D83023 /* Version.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Version.swift; path = Sources/MockingbirdCommon/Version.swift; sourceTree = "<group>"; };
+		13EE5579BDBC10E3625B6D14E8EAFE1F /* MKBTypeFacade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBTypeFacade.h; path = "Sources/MockingbirdFramework/Objective-C/Bridge/include/MKBTypeFacade.h"; sourceTree = "<group>"; };
+		1445B3873D5A3C239740F66C0FAE5770 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Sources/MockingbirdFramework/Mocking/Context.swift; sourceTree = "<group>"; };
+		173D6F8B113DCC6272A785DBA9C4D23A /* CollectionMatchers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionMatchers.swift; path = Sources/MockingbirdFramework/Matching/CollectionMatchers.swift; sourceTree = "<group>"; };
+		17E42218D2B9B2496A750A27D8E0A8C1 /* MKBUnsignedShortInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBUnsignedShortInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBUnsignedShortInvocationHandler.m"; sourceTree = "<group>"; };
+		1B0C3C1EBC859E64D5D9042D37073DA8 /* ExpectationGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectationGroup.swift; path = Sources/MockingbirdFramework/Verification/ExpectationGroup.swift; sourceTree = "<group>"; };
+		1C4C0F31964B3D22E749B36286BE887B /* MKBInvocationHandlerChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBInvocationHandlerChain.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBInvocationHandlerChain.m"; sourceTree = "<group>"; };
+		1CC618FEF4EC6E32AF52FE64FF4B4B6E /* Pods-MarvelAPI-MarvelAPIUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarvelAPI-MarvelAPIUITests-Info.plist"; sourceTree = "<group>"; };
+		1D486EF1533154399D2122A71B18D3F6 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		1D96F892C5861FEB9EBC6C742630ABEF /* MKBSelectorInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBSelectorInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBSelectorInvocationHandler.h"; sourceTree = "<group>"; };
+		1DECA656BFB062C41E595A2BAEEF2737 /* Pods-MarvelAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		1ECBA8364A003D577362AEF68033224A /* MockingbirdFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MockingbirdFramework-umbrella.h"; sourceTree = "<group>"; };
+		203E25126F695AA3A70D29A86F0A44A4 /* MKBFloatInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBFloatInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBFloatInvocationHandler.m"; sourceTree = "<group>"; };
+		22A75682703D473B673E1126925D9C38 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		2314844714270B6A5882344221426851 /* Pods-MarvelAPI-MarvelAPIUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarvelAPI-MarvelAPIUITests-umbrella.h"; sourceTree = "<group>"; };
+		232D3F7C479F79E157AC43B66F227FA8 /* MKBIntInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBIntInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBIntInvocationHandler.m"; sourceTree = "<group>"; };
+		2414D173DC6B4229A6097A636E6BA747 /* MKBConcreteMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBConcreteMock.h; path = "Sources/MockingbirdFramework/Objective-C/MKBConcreteMock.h"; sourceTree = "<group>"; };
+		296255424C7AE5DDBF74D913726B3F6A /* MKBProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBProperty.m; path = "Sources/MockingbirdFramework/Objective-C/MKBProperty.m"; sourceTree = "<group>"; };
+		29ED4630A4FE4C38C9BED392EA0A550A /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		2A64DDC144C36FEC43C2669D8EEF0205 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		2DF79334EE2FBF83FA390388EB368ED6 /* MKBFloatInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBFloatInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBFloatInvocationHandler.h"; sourceTree = "<group>"; };
+		2E1E6D64CAB9559E5CFCFC752E6A0C9D /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		2E92CCE7F6F709EA7389A4264C8DC42F /* ObjCTypeEncodings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCTypeEncodings.swift; path = Sources/MockingbirdFramework/Utilities/ObjCTypeEncodings.swift; sourceTree = "<group>"; };
+		2F1ED3EC7FFCD0F891FFFF083C879473 /* Pods-MarvelAPITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarvelAPITests-frameworks.sh"; sourceTree = "<group>"; };
+		2F245020CC76EA3D17897F523D09EF12 /* MKBTestExpectation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBTestExpectation.h; path = "Sources/MockingbirdFramework/Objective-C/Bridge/include/MKBTestExpectation.h"; sourceTree = "<group>"; };
+		2F2E1488EE7CAB5CD7C0D378F47CD240 /* PropertyProviders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyProviders.swift; path = Sources/MockingbirdFramework/Stubbing/PropertyProviders.swift; sourceTree = "<group>"; };
+		33E511207703CEFA7CFB8E5AC31A1295 /* Pods-MarvelAPI-MarvelAPIUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarvelAPI-MarvelAPIUITests-dummy.m"; sourceTree = "<group>"; };
+		35833E1C94F18BC8EDBE72538C95AE1E /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		36CECB2207A26BB8BE5A711AAF5D4B73 /* WildcardMatchers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WildcardMatchers.swift; path = Sources/MockingbirdFramework/Matching/WildcardMatchers.swift; sourceTree = "<group>"; };
+		39967A2F461C223F83E640F06CC73722 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		4012B644B784033884EF04262FDE4E51 /* MKBProtocolMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBProtocolMock.h; path = "Sources/MockingbirdFramework/Objective-C/MKBProtocolMock.h"; sourceTree = "<group>"; };
+		40B12E2E2FC687937778E4041CAA830E /* MKBTestUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBTestUtils.h; path = "Sources/MockingbirdFramework/Objective-C/Bridge/include/MKBTestUtils.h"; sourceTree = "<group>"; };
+		425FE79DE20371495B2E307BC441BAAC /* AsyncVerification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncVerification.swift; path = Sources/MockingbirdFramework/Verification/AsyncVerification.swift; sourceTree = "<group>"; };
+		42CA47F36AB8E231E7F8B1D7CFF5266A /* MockingbirdFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MockingbirdFramework-Info.plist"; sourceTree = "<group>"; };
+		45CAB2DF8CFFF52F80249BEF2D04519A /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		4620FD8663B64CE89F7E94264B8A62B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		46CFC420C987F63E0F64E6703B891876 /* MKBPointerInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBPointerInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBPointerInvocationHandler.m"; sourceTree = "<group>"; };
+		483CB4813D57F9C238104519F3F2BBB4 /* String+Interpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Interpolation.swift"; path = "Sources/MockingbirdCommon/String+Interpolation.swift"; sourceTree = "<group>"; };
+		4A26C24C97C33E33E3BD04AC30B33320 /* MKBTestUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBTestUtils.m; path = "Sources/MockingbirdFramework/Objective-C/Bridge/sources/MKBTestUtils.m"; sourceTree = "<group>"; };
+		4A850C1FC25299FC90C0AF2A06342ED7 /* ProcessInfo+ControlCodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProcessInfo+ControlCodes.swift"; path = "Sources/MockingbirdCommon/ProcessInfo+ControlCodes.swift"; sourceTree = "<group>"; };
+		4F0905F6372BF28BF22D75143A5FB617 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		5102C6091E8114B4E7BC26D83F6A630D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5291EEF731E1D6A1318C914B5BE3ED83 /* MKBUnsignedLongInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBUnsignedLongInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBUnsignedLongInvocationHandler.m"; sourceTree = "<group>"; };
+		52D216EB2336F7DECA3CEE4EF0517A1F /* MockingbirdFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MockingbirdFramework.modulemap; sourceTree = "<group>"; };
+		536DBC7C02CC612597790E7D450B48F4 /* MKBLongInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBLongInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBLongInvocationHandler.h"; sourceTree = "<group>"; };
+		53C225C9BBA08A59E3EB31B8A32F33C9 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		573DC535B010C14B91C3069172DA1C18 /* MockingbirdFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MockingbirdFramework.release.xcconfig; sourceTree = "<group>"; };
+		58909D7129D6D4C143D2BAFEBE25CEBC /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		5AD1D013F0139A32DC6AF6E06CE15C96 /* Array+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extensions.swift"; path = "Sources/MockingbirdFramework/Utilities/Array+Extensions.swift"; sourceTree = "<group>"; };
+		5AF3236CD08E6F1A8B2C07CBD8F771A3 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		5B858B0091E6F75A1F96660BE6513175 /* ValueProvider+Tuples.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ValueProvider+Tuples.swift"; path = "Sources/MockingbirdFramework/Stubbing/ValueProvider+Tuples.swift"; sourceTree = "<group>"; };
+		5BC45A3EB66BD84460F0AAE90C7724FD /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		5C002FAE6BFE456036B1CAB891118661 /* ImplementationProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImplementationProvider.swift; path = Sources/MockingbirdFramework/Stubbing/ImplementationProvider.swift; sourceTree = "<group>"; };
+		5C39E2B367F06EE31BE46EBB4BB3B70F /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		5CDF82AEF207B87DD71CE5C6EF05829B /* MockingbirdFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MockingbirdFramework.debug.xcconfig; sourceTree = "<group>"; };
+		5D4D57F5513B880C47F94F85A300B7B1 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D860A0BF207591D6ECF1A33D12B3A6F /* Pods-MarvelAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelAPI.release.xcconfig"; sourceTree = "<group>"; };
+		5ED369A2F664CC84D8DB47655CA9798C /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		5F01FA8702CF8DA57FB4EDBBBB3BC2CE /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		5F4A760DAAF27D416EF8ADB13AD80D01 /* MKBUnsignedLongLongInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBUnsignedLongLongInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBUnsignedLongLongInvocationHandler.h"; sourceTree = "<group>"; };
+		5F86B33FDCA11010EE9905449CA63F47 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		5FB1B9A30FDC7C97BFFE0CCBC75145E9 /* MKBInvocationHandlerChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBInvocationHandlerChain.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBInvocationHandlerChain.h"; sourceTree = "<group>"; };
+		603F1C15110DABED7253B733BA4650BB /* MKBLongInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBLongInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBLongInvocationHandler.m"; sourceTree = "<group>"; };
+		60C5A39C1DAFC28C0BDA1A246CAC561D /* MKBMocking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBMocking.m; path = "Sources/MockingbirdFramework/Objective-C/Bridge/sources/MKBMocking.m"; sourceTree = "<group>"; };
+		61D3B799E845DCD18AE840F99C4C21E1 /* ArgumentPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArgumentPosition.swift; path = Sources/MockingbirdFramework/Matching/ArgumentPosition.swift; sourceTree = "<group>"; };
+		63F4422CFE00DFCD857B68A941800570 /* InvocationRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvocationRecorder.swift; path = Sources/MockingbirdFramework/Stubbing/InvocationRecorder.swift; sourceTree = "<group>"; };
+		659605854707B61C45911BAB18770C73 /* ValueProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueProvider.swift; path = Sources/MockingbirdFramework/Stubbing/ValueProvider.swift; sourceTree = "<group>"; };
+		660D30A7D1D51923F0D3DFC8ED18637C /* InvocationForwarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvocationForwarding.swift; path = Sources/MockingbirdFramework/Stubbing/InvocationForwarding.swift; sourceTree = "<group>"; };
+		6610E1405F7D86FCD1CB748C7E45C50C /* MKBUnsignedIntInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBUnsignedIntInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBUnsignedIntInvocationHandler.m"; sourceTree = "<group>"; };
+		6A207D80512D37D996DCE47B8EBE8E26 /* String+ControlCodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+ControlCodes.swift"; path = "Sources/MockingbirdCommon/String+ControlCodes.swift"; sourceTree = "<group>"; };
+		6A8D92EFD670D7A99F3AE969884D3B4B /* Pods-MarvelAPI-MarvelAPIUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarvelAPI-MarvelAPIUITests.modulemap"; sourceTree = "<group>"; };
+		6BB2587D75E5B48EDA798CB751DA1EB2 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		6BBCFF55B7555BC9821E3ED6322EF3C4 /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
+		6BFA26A9387A1CBBAC3C3DEE35AC05A4 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		6DAB55491CC80B785A759BD68C5EF545 /* Declaration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Declaration.swift; path = Sources/MockingbirdFramework/Mocking/Declaration.swift; sourceTree = "<group>"; };
+		6EE905AFA17FDA5815BE3D8BD7B65DF8 /* MKBUnsignedIntInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBUnsignedIntInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBUnsignedIntInvocationHandler.h"; sourceTree = "<group>"; };
+		713557684F73DE7294C40A5A67695132 /* TestFailure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestFailure.swift; path = Sources/MockingbirdFramework/Verification/TestFailure.swift; sourceTree = "<group>"; };
+		737C28FA84479291BFCF0CFD5C06604E /* Pods-MarvelAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+		75EC4A60874CD402A9F962BA266C6799 /* Pods-MarvelAPITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarvelAPITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		79A846E9420A34F86B29B0ACE27ECE3D /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		7A6EB8EAE38B969627D7EE33172C6058 /* MKBDoubleInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBDoubleInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBDoubleInvocationHandler.h"; sourceTree = "<group>"; };
+		7C2D8FEBFB9A979957D9C8E8FFA86542 /* Mock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mock.swift; path = Sources/MockingbirdFramework/Mocking/Mock.swift; sourceTree = "<group>"; };
+		7DC2BFB536232B0AF47DC4D50DB4AD33 /* MKBComparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBComparator.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBComparator.h"; sourceTree = "<group>"; };
+		7DF26B6AF76E751F84495FE9FC805A85 /* Synchronized.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Synchronized.swift; path = Sources/MockingbirdCommon/Synchronized.swift; sourceTree = "<group>"; };
+		8396A5FC11ED2D5C360C9EE4C8A769A5 /* MKBObjectInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBObjectInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBObjectInvocationHandler.h"; sourceTree = "<group>"; };
+		84A1DF1F0872122A4EEA8713B5505989 /* Mocking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mocking.swift; path = Sources/MockingbirdFramework/Mocking/Mocking.swift; sourceTree = "<group>"; };
+		86989FC9AFCF8B8273BB32B740A812B0 /* NonEscapingType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NonEscapingType.swift; path = Sources/MockingbirdFramework/Matching/NonEscapingType.swift; sourceTree = "<group>"; };
+		8759A30347451D7B07A5424E71707C16 /* MKBProtocolMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBProtocolMock.m; path = "Sources/MockingbirdFramework/Objective-C/MKBProtocolMock.m"; sourceTree = "<group>"; };
+		88A312F961D5F21962235E4D726200FC /* Pods-MarvelAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarvelAPI-dummy.m"; sourceTree = "<group>"; };
+		897188B686AD5C82D69CBDA033D92CAE /* MKBCharInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBCharInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBCharInvocationHandler.h"; sourceTree = "<group>"; };
+		8A3B5A66E36E7F49BAFD02226AD5085E /* MKBShortInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBShortInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBShortInvocationHandler.m"; sourceTree = "<group>"; };
+		8A3F0AB01BD4E3BDEEEBAF4460DE06F0 /* Pods-MarvelAPITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MarvelAPITests"; path = Pods_MarvelAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE83E36308028770F454268D1049ABD /* ArgumentMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArgumentMatcher.swift; path = Sources/MockingbirdFramework/Matching/ArgumentMatcher.swift; sourceTree = "<group>"; };
+		8DDD359B48798DE5A63CE3EA6EAD2773 /* OrderedVerification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedVerification.swift; path = Sources/MockingbirdFramework/Verification/OrderedVerification.swift; sourceTree = "<group>"; };
+		8EB3ADE4DEE512B523C1C9B21D54FF51 /* MKBStructInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBStructInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBStructInvocationHandler.h"; sourceTree = "<group>"; };
+		8FA2F02FF235B84A66197448EC98432D /* MKBProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBProperty.h; path = "Sources/MockingbirdFramework/Objective-C/MKBProperty.h"; sourceTree = "<group>"; };
+		8FC2DA1CD406E3E7383C50A6232F32BC /* MKBClassMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBClassMock.m; path = "Sources/MockingbirdFramework/Objective-C/MKBClassMock.m"; sourceTree = "<group>"; };
+		9030A94FBF9E256F8C90A583D9F563FB /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		90352ED13DE7D580ED308F43B30ED21D /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "Sources/MockingbirdFramework/Utilities/String+Extensions.swift"; sourceTree = "<group>"; };
+		924A71A2A015EAF14D82A204284ADF27 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		926535DC1FC7F901B28D661FDFC26D6C /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/MockingbirdFramework/Utilities/SourceLocation.swift; sourceTree = "<group>"; };
+		94818449DAA62A368C6172EBFDF935A9 /* Pods-MarvelAPI-MarvelAPIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelAPI-MarvelAPIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		960DA747BF44725A4937B070A1ABA320 /* DynamicCast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicCast.swift; path = Sources/MockingbirdFramework/Utilities/DynamicCast.swift; sourceTree = "<group>"; };
+		964736151CB18ED4D980EC5D349DE337 /* Pods-MarvelAPITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarvelAPITests-dummy.m"; sourceTree = "<group>"; };
+		98A67C1AA1DA3249EF027068AABF4B1B /* Pods-MarvelAPI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarvelAPI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98DCDC55BE4456EEDF0D75740649FAE3 /* MKBClassInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBClassInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBClassInvocationHandler.h"; sourceTree = "<group>"; };
+		99117169FAA09D8C1344CD352BF1DD73 /* SequenceProviders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SequenceProviders.swift; path = Sources/MockingbirdFramework/Stubbing/SequenceProviders.swift; sourceTree = "<group>"; };
+		9A94A9B063B4BE37E5108E339FF45E07 /* GenericStaticMockContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericStaticMockContext.swift; path = Sources/MockingbirdFramework/Mocking/GenericStaticMockContext.swift; sourceTree = "<group>"; };
+		9BD206389FA4FCF57D4B9371B227BEAD /* TypeFacade.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeFacade.swift; path = Sources/MockingbirdFramework/Matching/TypeFacade.swift; sourceTree = "<group>"; };
+		9C3856A6AFF27C4AFB5CB136D155EA9E /* Stubbing+ObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Stubbing+ObjC.swift"; path = "Sources/MockingbirdFramework/Stubbing/Stubbing+ObjC.swift"; sourceTree = "<group>"; };
+		9CE3A72E5CFAA3CC17EA19754B4CE3F8 /* MKBCStringInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBCStringInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBCStringInvocationHandler.h"; sourceTree = "<group>"; };
+		9D2266F6A7122885EC9153B832275A00 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		9D8D0C63A83C2499D5429250F38E4BE5 /* NSInvocation+MKBErrorObjectType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+MKBErrorObjectType.h"; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/NSInvocation+MKBErrorObjectType.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCB4FBD12EBD17F6832899929B129FF /* MockingbirdFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MockingbirdFramework-dummy.m"; sourceTree = "<group>"; };
+		9E75990974CAA284C757DC0E895A7FBD /* StubbingContext+ObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StubbingContext+ObjC.swift"; path = "Sources/MockingbirdFramework/Stubbing/StubbingContext+ObjC.swift"; sourceTree = "<group>"; };
+		A0F1B883373401B737E1174716C5984A /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		A21BD0A698A51B19018B3694D301242B /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		A225535A82DB1EDE51EAD01B7A4C3C1B /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		A24174D58353098673F270353109D394 /* Pods-MarvelAPI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MarvelAPI"; path = Pods_MarvelAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EBE05DB34268DD5EAF86DDD350D5FB /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		A2F1DFF2F1D4FC742493D90C8EE57A09 /* MKBInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBInvocationHandler.h"; sourceTree = "<group>"; };
+		A3F2A11EF1DDB346B598BF461E90C735 /* MKBUnsignedLongInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBUnsignedLongInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBUnsignedLongInvocationHandler.h"; sourceTree = "<group>"; };
+		A54E42C3C93C1CB3A644ED87DBC8DB8C /* MKBCStringInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBCStringInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBCStringInvocationHandler.m"; sourceTree = "<group>"; };
+		A56E9C9500A4E865AC07054102B755CF /* MKBLongLongInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBLongLongInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBLongLongInvocationHandler.m"; sourceTree = "<group>"; };
+		A9AD2233DFC30A1C1B7A11A009B0C159 /* Pods-MarvelAPI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarvelAPI-Info.plist"; sourceTree = "<group>"; };
+		AB1E182FE76EA1093529BC7BF00F01CD /* MKBPointerInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBPointerInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBPointerInvocationHandler.h"; sourceTree = "<group>"; };
+		AD132F231BBFFDBAB12DF785B2BFACF4 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		AE184502B2E26D86CE67B8CEBACECD04 /* Mockingbird.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mockingbird.h; path = "Sources/MockingbirdFramework/Objective-C/Bridge/include/Mockingbird.h"; sourceTree = "<group>"; };
+		AE19DDB4B131C7B69142B3D4FF926305 /* Pods-MarvelAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarvelAPI.modulemap"; sourceTree = "<group>"; };
+		AFC1236A77E5B91B36951A1537580074 /* DefaultValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValues.swift; path = Sources/MockingbirdFramework/Stubbing/DefaultValues.swift; sourceTree = "<group>"; };
+		B3583F63CF53873E8F4CC4EE469B458C /* MKBIntInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBIntInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBIntInvocationHandler.h"; sourceTree = "<group>"; };
+		B3BCB6128779076525372718E0F18725 /* DynamicStubbingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicStubbingManager.swift; path = Sources/MockingbirdFramework/Stubbing/DynamicStubbingManager.swift; sourceTree = "<group>"; };
+		B777727374FF2965313CA8A7C4639D75 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		B8120D2466EF0A6B1B3FA2D95E12A421 /* MKBStructInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBStructInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBStructInvocationHandler.m"; sourceTree = "<group>"; };
+		B8CC302A3DB333B2FCB15A1CCADDBB55 /* StackTrace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StackTrace.swift; path = Sources/MockingbirdFramework/Utilities/StackTrace.swift; sourceTree = "<group>"; };
+		B95CA52A2F92E9046C35C9E9DB5A21F7 /* Pods-MarvelAPI-MarvelAPIUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarvelAPI-MarvelAPIUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA547B66E561A11B28CECAC05B86D306 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		BB01268BBC7C306A6F724764D7DBF5BD /* Pods-MarvelAPITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarvelAPITests-Info.plist"; sourceTree = "<group>"; };
+		BC93B0EDF05956006ABEFE2D4A3E50B5 /* ArgumentCaptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArgumentCaptor.swift; path = Sources/MockingbirdFramework/Matching/ArgumentCaptor.swift; sourceTree = "<group>"; };
+		BCE8CD32EF7BEDB28263C81FF021ABCB /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		C027586EF3A398B495CB713AAAB24978 /* ValueProvider+Collections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ValueProvider+Collections.swift"; path = "Sources/MockingbirdFramework/Stubbing/ValueProvider+Collections.swift"; sourceTree = "<group>"; };
+		C14A5BEFF3CB6471A46C3CE1235314DC /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		C15388EF2F96DB6CABDD307E65CFA4FE /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		C2CC64447F17F812724D4D8952E89E47 /* Pods-MarvelAPI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarvelAPI-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2E3F9C34BEB9D76AEB7E6A37F75C9A7 /* MKBClassMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBClassMock.h; path = "Sources/MockingbirdFramework/Objective-C/MKBClassMock.h"; sourceTree = "<group>"; };
+		C5285E5B8900EE85149755D1BAA17E62 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		C5333322671E58B884F6F5E4CC62ABF9 /* MKBClassInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBClassInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBClassInvocationHandler.m"; sourceTree = "<group>"; };
+		C75336302A68BB91181FC854121FC888 /* XCTFailSwizzler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCTFailSwizzler.swift; path = Sources/MockingbirdFramework/Verification/XCTFailSwizzler.swift; sourceTree = "<group>"; };
+		C802FF0D987E263754885A106B07E3EB /* MKBUnsignedLongLongInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBUnsignedLongLongInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBUnsignedLongLongInvocationHandler.m"; sourceTree = "<group>"; };
+		C85EF2BF2783AA0C058A9A27DE228A4F /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		C92F9ABC8883CABA6F7F7ABD91C4BC1F /* Pods-MarvelAPI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarvelAPI-frameworks.sh"; sourceTree = "<group>"; };
+		CB00088E8AACBD569F80E770458784DF /* MKBUnsignedCharInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBUnsignedCharInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBUnsignedCharInvocationHandler.m"; sourceTree = "<group>"; };
+		CFC7783E3D7A150455B64C3482AA6191 /* CountMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountMatcher.swift; path = Sources/MockingbirdFramework/Matching/CountMatcher.swift; sourceTree = "<group>"; };
+		D0F4EB01A739E56F43F44D14386A58E5 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		D676C0C5EF15C377C3679B60A41A5B22 /* MKBLongLongInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBLongLongInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBLongLongInvocationHandler.h"; sourceTree = "<group>"; };
+		D74A88A2434FAD30FADA12ECC074DB3A /* CwlDemangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlDemangle.swift; path = Sources/MockingbirdFramework/Utilities/CwlDemangle.swift; sourceTree = "<group>"; };
+		D8EDE827951192F19D28B0C81C5257CA /* String+Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Regex.swift"; path = "Sources/MockingbirdCommon/String+Regex.swift"; sourceTree = "<group>"; };
+		DB66F9A9E2C226810B2B0CDDE75AC155 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		DC10135655DA1AE1C8F3961DB86A4DFE /* MKBCharInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBCharInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBCharInvocationHandler.m"; sourceTree = "<group>"; };
+		DDEF47EB905E140C33AD24B65B1CDE00 /* MKBInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBInvocationHandler.m"; sourceTree = "<group>"; };
+		E0DDAB2F2FD2813AF27D659B0F8AAA02 /* Data+SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+SHA1.swift"; path = "Sources/MockingbirdCommon/Data+SHA1.swift"; sourceTree = "<group>"; };
+		E155C308AF1EEECB8F0980A1D936C645 /* Pods-MarvelAPITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarvelAPITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2CA0F6BDC78BC49F4FAF7B37AE9EEFC /* ProxyContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProxyContext.swift; path = Sources/MockingbirdFramework/Stubbing/ProxyContext.swift; sourceTree = "<group>"; };
+		E33B27B280A560F9D1D7B0F2160FCCC2 /* MKBBoolInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBBoolInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBBoolInvocationHandler.h"; sourceTree = "<group>"; };
+		E4E985830A7ADAA1D7FE97771CDBE52E /* MKBUnsignedCharInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBUnsignedCharInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBUnsignedCharInvocationHandler.h"; sourceTree = "<group>"; };
+		E61E05F26569B34554037B7AB95BB5BC /* MonotonicIncreasingIndex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonotonicIncreasingIndex.swift; path = Sources/MockingbirdFramework/Verification/MonotonicIncreasingIndex.swift; sourceTree = "<group>"; };
+		E682A125A92F5CC474B0F0810482C458 /* MKBConcreteMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBConcreteMock.m; path = "Sources/MockingbirdFramework/Objective-C/MKBConcreteMock.m"; sourceTree = "<group>"; };
+		E68E738AB302DC93A9FA30C4845E648A /* MKBObjectInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBObjectInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBObjectInvocationHandler.m"; sourceTree = "<group>"; };
+		E85DED3637A2AC478A0F9CF64A2DBF82 /* MKBMocking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBMocking.h; path = "Sources/MockingbirdFramework/Objective-C/Bridge/include/MKBMocking.h"; sourceTree = "<group>"; };
+		E8C79A73BDCDB535A237817F4A53A346 /* MKBSelectorInvocationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKBSelectorInvocationHandler.m; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBSelectorInvocationHandler.m"; sourceTree = "<group>"; };
+		E954302F48090D7A544F77B413C729BF /* Pods-MarvelAPITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarvelAPITests-umbrella.h"; sourceTree = "<group>"; };
+		EB2CC2CBB224947C16E081BA74C3DD33 /* Pods-MarvelAPITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarvelAPITests.modulemap"; sourceTree = "<group>"; };
+		EBFE0739E06BC2E4DCEB3BC38EB6D1DE /* Optional+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+Extensions.swift"; path = "Sources/MockingbirdFramework/Utilities/Optional+Extensions.swift"; sourceTree = "<group>"; };
+		ED4BAB365F71579F6C6E2E95F1B34C34 /* MockingbirdFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MockingbirdFramework-prefix.pch"; sourceTree = "<group>"; };
+		F1AEFBAF497E05AA770FAD3B5CF88092 /* NSInvocation+MKBErrorObjectType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+MKBErrorObjectType.m"; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/NSInvocation+MKBErrorObjectType.m"; sourceTree = "<group>"; };
+		F1C0A72895CC2C74C37D17AFD346CEBF /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		F2BAEAA8973DA57958D96603F5D5D0B6 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		F73330ABD4A1929A9403486558DF7029 /* MockingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MockingContext.swift; path = Sources/MockingbirdFramework/Mocking/MockingContext.swift; sourceTree = "<group>"; };
+		F793952532917DDDC23DF6ADFC920EE5 /* Invocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Invocation.swift; path = Sources/MockingbirdFramework/Verification/Invocation.swift; sourceTree = "<group>"; };
+		FCC376186EAB1ACAF3F1812AD3C90840 /* StubbingContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StubbingContext.swift; path = Sources/MockingbirdFramework/Stubbing/StubbingContext.swift; sourceTree = "<group>"; };
+		FD94C7B155DA9286E79AD2202ECD3480 /* MKBShortInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBShortInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBShortInvocationHandler.h"; sourceTree = "<group>"; };
+		FF46A01D9BC3229F7B9C161513D8BBD5 /* MockingbirdFramework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MockingbirdFramework; path = Mockingbird.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8CBC757C6D322F07CA49D947138036 /* Pods-MarvelAPI-MarvelAPIUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MarvelAPI-MarvelAPIUITests"; path = Pods_MarvelAPI_MarvelAPIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA0DD69009110D8BE0128B0A735D585 /* MKBUnsignedShortInvocationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKBUnsignedShortInvocationHandler.h; path = "Sources/MockingbirdFramework/Objective-C/InvocationHandlers/MKBUnsignedShortInvocationHandler.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E96BA1972F7D41227512B1F6B204CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB89087649CF150813E75BA020942D79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */,
+				0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D23467E667CDEC1CAA34ED369F80048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BAA5DB6522A7CD4228CAB1EBD65149 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46AE387C22990B078509F063E95658CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D9E35F50DE7C89E64A0356181E545B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6AD94A83819720810409172D109F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8673E9EDF9BDED0E4644B1BD28F5721F /* Foundation.framework in Frameworks */,
+				B516FF8FE1B25C919C4EDCEA330BFCE2 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90F6A2529D4DF0BC9156E54DB310FD3F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18BCB2456F52B7FB35167FCCC1F74571 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52D216EB2336F7DECA3CEE4EF0517A1F /* MockingbirdFramework.modulemap */,
+				9DCB4FBD12EBD17F6832899929B129FF /* MockingbirdFramework-dummy.m */,
+				42CA47F36AB8E231E7F8B1D7CFF5266A /* MockingbirdFramework-Info.plist */,
+				ED4BAB365F71579F6C6E2E95F1B34C34 /* MockingbirdFramework-prefix.pch */,
+				1ECBA8364A003D577362AEF68033224A /* MockingbirdFramework-umbrella.h */,
+				5CDF82AEF207B87DD71CE5C6EF05829B /* MockingbirdFramework.debug.xcconfig */,
+				573DC535B010C14B91C3069172DA1C18 /* MockingbirdFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MockingbirdFramework";
+			sourceTree = "<group>";
+		};
+		267286176A62AC1A8D12059D5D02D2E5 /* Pods-MarvelAPI-MarvelAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A8D92EFD670D7A99F3AE969884D3B4B /* Pods-MarvelAPI-MarvelAPIUITests.modulemap */,
+				01C21E102082845BB3B791A61CCEFC74 /* Pods-MarvelAPI-MarvelAPIUITests-acknowledgements.markdown */,
+				B95CA52A2F92E9046C35C9E9DB5A21F7 /* Pods-MarvelAPI-MarvelAPIUITests-acknowledgements.plist */,
+				33E511207703CEFA7CFB8E5AC31A1295 /* Pods-MarvelAPI-MarvelAPIUITests-dummy.m */,
+				0DFC6E355AD1B8814F50175AF8E7BDF0 /* Pods-MarvelAPI-MarvelAPIUITests-frameworks.sh */,
+				1CC618FEF4EC6E32AF52FE64FF4B4B6E /* Pods-MarvelAPI-MarvelAPIUITests-Info.plist */,
+				2314844714270B6A5882344221426851 /* Pods-MarvelAPI-MarvelAPIUITests-umbrella.h */,
+				94818449DAA62A368C6172EBFDF935A9 /* Pods-MarvelAPI-MarvelAPIUITests.debug.xcconfig */,
+				0E7EF1DC040248BB52D21AFD0B4FAA02 /* Pods-MarvelAPI-MarvelAPIUITests.release.xcconfig */,
+			);
+			name = "Pods-MarvelAPI-MarvelAPIUITests";
+			path = "Target Support Files/Pods-MarvelAPI-MarvelAPIUITests";
+			sourceTree = "<group>";
+		};
+		425BD6F8E4FFA8102E1CF9293E407570 /* MockingbirdFramework */ = {
+			isa = PBXGroup;
+			children = (
+				BC93B0EDF05956006ABEFE2D4A3E50B5 /* ArgumentCaptor.swift */,
+				8AE83E36308028770F454268D1049ABD /* ArgumentMatcher.swift */,
+				61D3B799E845DCD18AE840F99C4C21E1 /* ArgumentPosition.swift */,
+				5AD1D013F0139A32DC6AF6E06CE15C96 /* Array+Extensions.swift */,
+				425FE79DE20371495B2E307BC441BAAC /* AsyncVerification.swift */,
+				173D6F8B113DCC6272A785DBA9C4D23A /* CollectionMatchers.swift */,
+				1445B3873D5A3C239740F66C0FAE5770 /* Context.swift */,
+				CFC7783E3D7A150455B64C3482AA6191 /* CountMatcher.swift */,
+				D74A88A2434FAD30FADA12ECC074DB3A /* CwlDemangle.swift */,
+				E0DDAB2F2FD2813AF27D659B0F8AAA02 /* Data+SHA1.swift */,
+				6DAB55491CC80B785A759BD68C5EF545 /* Declaration.swift */,
+				AFC1236A77E5B91B36951A1537580074 /* DefaultValues.swift */,
+				960DA747BF44725A4937B070A1ABA320 /* DynamicCast.swift */,
+				B3BCB6128779076525372718E0F18725 /* DynamicStubbingManager.swift */,
+				1B0C3C1EBC859E64D5D9042D37073DA8 /* ExpectationGroup.swift */,
+				9A94A9B063B4BE37E5108E339FF45E07 /* GenericStaticMockContext.swift */,
+				5C002FAE6BFE456036B1CAB891118661 /* ImplementationProvider.swift */,
+				F793952532917DDDC23DF6ADFC920EE5 /* Invocation.swift */,
+				660D30A7D1D51923F0D3DFC8ED18637C /* InvocationForwarding.swift */,
+				63F4422CFE00DFCD857B68A941800570 /* InvocationRecorder.swift */,
+				E33B27B280A560F9D1D7B0F2160FCCC2 /* MKBBoolInvocationHandler.h */,
+				11594D982C06ACAD599EE51DB8EED443 /* MKBBoolInvocationHandler.m */,
+				897188B686AD5C82D69CBDA033D92CAE /* MKBCharInvocationHandler.h */,
+				DC10135655DA1AE1C8F3961DB86A4DFE /* MKBCharInvocationHandler.m */,
+				98DCDC55BE4456EEDF0D75740649FAE3 /* MKBClassInvocationHandler.h */,
+				C5333322671E58B884F6F5E4CC62ABF9 /* MKBClassInvocationHandler.m */,
+				C2E3F9C34BEB9D76AEB7E6A37F75C9A7 /* MKBClassMock.h */,
+				8FC2DA1CD406E3E7383C50A6232F32BC /* MKBClassMock.m */,
+				7DC2BFB536232B0AF47DC4D50DB4AD33 /* MKBComparator.h */,
+				1293BDFDF0ECCED043D879E7BC0F930A /* MKBComparator.m */,
+				2414D173DC6B4229A6097A636E6BA747 /* MKBConcreteMock.h */,
+				E682A125A92F5CC474B0F0810482C458 /* MKBConcreteMock.m */,
+				9CE3A72E5CFAA3CC17EA19754B4CE3F8 /* MKBCStringInvocationHandler.h */,
+				A54E42C3C93C1CB3A644ED87DBC8DB8C /* MKBCStringInvocationHandler.m */,
+				7A6EB8EAE38B969627D7EE33172C6058 /* MKBDoubleInvocationHandler.h */,
+				04FEC8EB550E108AD2967DE28EAD4637 /* MKBDoubleInvocationHandler.m */,
+				2DF79334EE2FBF83FA390388EB368ED6 /* MKBFloatInvocationHandler.h */,
+				203E25126F695AA3A70D29A86F0A44A4 /* MKBFloatInvocationHandler.m */,
+				B3583F63CF53873E8F4CC4EE469B458C /* MKBIntInvocationHandler.h */,
+				232D3F7C479F79E157AC43B66F227FA8 /* MKBIntInvocationHandler.m */,
+				A2F1DFF2F1D4FC742493D90C8EE57A09 /* MKBInvocationHandler.h */,
+				DDEF47EB905E140C33AD24B65B1CDE00 /* MKBInvocationHandler.m */,
+				5FB1B9A30FDC7C97BFFE0CCBC75145E9 /* MKBInvocationHandlerChain.h */,
+				1C4C0F31964B3D22E749B36286BE887B /* MKBInvocationHandlerChain.m */,
+				536DBC7C02CC612597790E7D450B48F4 /* MKBLongInvocationHandler.h */,
+				603F1C15110DABED7253B733BA4650BB /* MKBLongInvocationHandler.m */,
+				D676C0C5EF15C377C3679B60A41A5B22 /* MKBLongLongInvocationHandler.h */,
+				A56E9C9500A4E865AC07054102B755CF /* MKBLongLongInvocationHandler.m */,
+				E85DED3637A2AC478A0F9CF64A2DBF82 /* MKBMocking.h */,
+				60C5A39C1DAFC28C0BDA1A246CAC561D /* MKBMocking.m */,
+				8396A5FC11ED2D5C360C9EE4C8A769A5 /* MKBObjectInvocationHandler.h */,
+				E68E738AB302DC93A9FA30C4845E648A /* MKBObjectInvocationHandler.m */,
+				AB1E182FE76EA1093529BC7BF00F01CD /* MKBPointerInvocationHandler.h */,
+				46CFC420C987F63E0F64E6703B891876 /* MKBPointerInvocationHandler.m */,
+				8FA2F02FF235B84A66197448EC98432D /* MKBProperty.h */,
+				296255424C7AE5DDBF74D913726B3F6A /* MKBProperty.m */,
+				4012B644B784033884EF04262FDE4E51 /* MKBProtocolMock.h */,
+				8759A30347451D7B07A5424E71707C16 /* MKBProtocolMock.m */,
+				1D96F892C5861FEB9EBC6C742630ABEF /* MKBSelectorInvocationHandler.h */,
+				E8C79A73BDCDB535A237817F4A53A346 /* MKBSelectorInvocationHandler.m */,
+				FD94C7B155DA9286E79AD2202ECD3480 /* MKBShortInvocationHandler.h */,
+				8A3B5A66E36E7F49BAFD02226AD5085E /* MKBShortInvocationHandler.m */,
+				8EB3ADE4DEE512B523C1C9B21D54FF51 /* MKBStructInvocationHandler.h */,
+				B8120D2466EF0A6B1B3FA2D95E12A421 /* MKBStructInvocationHandler.m */,
+				2F245020CC76EA3D17897F523D09EF12 /* MKBTestExpectation.h */,
+				12374B06AB845F20690FB353DDD2026F /* MKBTestExpectation.m */,
+				40B12E2E2FC687937778E4041CAA830E /* MKBTestUtils.h */,
+				4A26C24C97C33E33E3BD04AC30B33320 /* MKBTestUtils.m */,
+				13EE5579BDBC10E3625B6D14E8EAFE1F /* MKBTypeFacade.h */,
+				10296D1677069D5D521778909996D364 /* MKBTypeFacade.m */,
+				E4E985830A7ADAA1D7FE97771CDBE52E /* MKBUnsignedCharInvocationHandler.h */,
+				CB00088E8AACBD569F80E770458784DF /* MKBUnsignedCharInvocationHandler.m */,
+				6EE905AFA17FDA5815BE3D8BD7B65DF8 /* MKBUnsignedIntInvocationHandler.h */,
+				6610E1405F7D86FCD1CB748C7E45C50C /* MKBUnsignedIntInvocationHandler.m */,
+				A3F2A11EF1DDB346B598BF461E90C735 /* MKBUnsignedLongInvocationHandler.h */,
+				5291EEF731E1D6A1318C914B5BE3ED83 /* MKBUnsignedLongInvocationHandler.m */,
+				5F4A760DAAF27D416EF8ADB13AD80D01 /* MKBUnsignedLongLongInvocationHandler.h */,
+				C802FF0D987E263754885A106B07E3EB /* MKBUnsignedLongLongInvocationHandler.m */,
+				FFA0DD69009110D8BE0128B0A735D585 /* MKBUnsignedShortInvocationHandler.h */,
+				17E42218D2B9B2496A750A27D8E0A8C1 /* MKBUnsignedShortInvocationHandler.m */,
+				7C2D8FEBFB9A979957D9C8E8FFA86542 /* Mock.swift */,
+				84A1DF1F0872122A4EEA8713B5505989 /* Mocking.swift */,
+				AE184502B2E26D86CE67B8CEBACECD04 /* Mockingbird.h */,
+				0B8CA2DFEA7341E676F1D591C00BF3CB /* MockingbirdBridge.swift */,
+				F73330ABD4A1929A9403486558DF7029 /* MockingContext.swift */,
+				E61E05F26569B34554037B7AB95BB5BC /* MonotonicIncreasingIndex.swift */,
+				86989FC9AFCF8B8273BB32B740A812B0 /* NonEscapingType.swift */,
+				9D8D0C63A83C2499D5429250F38E4BE5 /* NSInvocation+MKBErrorObjectType.h */,
+				F1AEFBAF497E05AA770FAD3B5CF88092 /* NSInvocation+MKBErrorObjectType.m */,
+				2E92CCE7F6F709EA7389A4264C8DC42F /* ObjCTypeEncodings.swift */,
+				EBFE0739E06BC2E4DCEB3BC38EB6D1DE /* Optional+Extensions.swift */,
+				8DDD359B48798DE5A63CE3EA6EAD2773 /* OrderedVerification.swift */,
+				4A850C1FC25299FC90C0AF2A06342ED7 /* ProcessInfo+ControlCodes.swift */,
+				2F2E1488EE7CAB5CD7C0D378F47CD240 /* PropertyProviders.swift */,
+				E2CA0F6BDC78BC49F4FAF7B37AE9EEFC /* ProxyContext.swift */,
+				99117169FAA09D8C1344CD352BF1DD73 /* SequenceProviders.swift */,
+				926535DC1FC7F901B28D661FDFC26D6C /* SourceLocation.swift */,
+				B8CC302A3DB333B2FCB15A1CCADDBB55 /* StackTrace.swift */,
+				6A207D80512D37D996DCE47B8EBE8E26 /* String+ControlCodes.swift */,
+				90352ED13DE7D580ED308F43B30ED21D /* String+Extensions.swift */,
+				483CB4813D57F9C238104519F3F2BBB4 /* String+Interpolation.swift */,
+				D8EDE827951192F19D28B0C81C5257CA /* String+Regex.swift */,
+				00DB9B5C54E995061D6A85EDF9A2DCA4 /* Stubbing.swift */,
+				9C3856A6AFF27C4AFB5CB136D155EA9E /* Stubbing+ObjC.swift */,
+				FCC376186EAB1ACAF3F1812AD3C90840 /* StubbingContext.swift */,
+				9E75990974CAA284C757DC0E895A7FBD /* StubbingContext+ObjC.swift */,
+				7DF26B6AF76E751F84495FE9FC805A85 /* Synchronized.swift */,
+				713557684F73DE7294C40A5A67695132 /* TestFailure.swift */,
+				9BD206389FA4FCF57D4B9371B227BEAD /* TypeFacade.swift */,
+				659605854707B61C45911BAB18770C73 /* ValueProvider.swift */,
+				C027586EF3A398B495CB713AAAB24978 /* ValueProvider+Collections.swift */,
+				0BD2E257A5E41B0FC39395049F7D5DE8 /* ValueProvider+Foundation.swift */,
+				5B858B0091E6F75A1F96660BE6513175 /* ValueProvider+Tuples.swift */,
+				0923118B3DB6159342FACD4F610B8DE0 /* Verification.swift */,
+				13E5CB5FCD56CC2CAE5D5F4E70D83023 /* Version.swift */,
+				36CECB2207A26BB8BE5A711AAF5D4B73 /* WildcardMatchers.swift */,
+				C75336302A68BB91181FC854121FC888 /* XCTFailSwizzler.swift */,
+				18BCB2456F52B7FB35167FCCC1F74571 /* Support Files */,
+			);
+			name = MockingbirdFramework;
+			path = MockingbirdFramework;
+			sourceTree = "<group>";
+		};
+		5324627B3EAFBA260786E06E117CBCCC /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				E440DE47CFA69CA361F29DA52327AF39 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		61433F37887A02843957272C260BF569 /* Pods-MarvelAPI */ = {
+			isa = PBXGroup;
+			children = (
+				AE19DDB4B131C7B69142B3D4FF926305 /* Pods-MarvelAPI.modulemap */,
+				98A67C1AA1DA3249EF027068AABF4B1B /* Pods-MarvelAPI-acknowledgements.markdown */,
+				C2CC64447F17F812724D4D8952E89E47 /* Pods-MarvelAPI-acknowledgements.plist */,
+				88A312F961D5F21962235E4D726200FC /* Pods-MarvelAPI-dummy.m */,
+				C92F9ABC8883CABA6F7F7ABD91C4BC1F /* Pods-MarvelAPI-frameworks.sh */,
+				A9AD2233DFC30A1C1B7A11A009B0C159 /* Pods-MarvelAPI-Info.plist */,
+				05350A004EE636F525728A04313CD3AE /* Pods-MarvelAPI-umbrella.h */,
+				0ECFF79B8DEC27C3D7593335AE6CA283 /* Pods-MarvelAPI.debug.xcconfig */,
+				5D860A0BF207591D6ECF1A33D12B3A6F /* Pods-MarvelAPI.release.xcconfig */,
+			);
+			name = "Pods-MarvelAPI";
+			path = "Target Support Files/Pods-MarvelAPI";
+			sourceTree = "<group>";
+		};
+		90F6A2529D4DF0BC9156E54DB310FD3F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4F0905F6372BF28BF22D75143A5FB617 /* CFNetwork.framework */,
+				5102C6091E8114B4E7BC26D83F6A630D /* Foundation.framework */,
+				4620FD8663B64CE89F7E94264B8A62B0 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		98E19A2698ACDB11D4993E8028840F2B /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				C5285E5B8900EE85149755D1BAA17E62 /* AFError.swift */,
+				5ED369A2F664CC84D8DB47655CA9798C /* Alamofire.swift */,
+				6BFA26A9387A1CBBAC3C3DEE35AC05A4 /* AlamofireExtended.swift */,
+				A21BD0A698A51B19018B3694D301242B /* AuthenticationInterceptor.swift */,
+				C14A5BEFF3CB6471A46C3CE1235314DC /* CachedResponseHandler.swift */,
+				DB66F9A9E2C226810B2B0CDDE75AC155 /* Combine.swift */,
+				6BBCFF55B7555BC9821E3ED6322EF3C4 /* Concurrency.swift */,
+				2A64DDC144C36FEC43C2669D8EEF0205 /* DispatchQueue+Alamofire.swift */,
+				BCE8CD32EF7BEDB28263C81FF021ABCB /* EventMonitor.swift */,
+				046A8CF256E17B8D3658E7AFE8C40C26 /* HTTPHeaders.swift */,
+				45CAB2DF8CFFF52F80249BEF2D04519A /* HTTPMethod.swift */,
+				5C39E2B367F06EE31BE46EBB4BB3B70F /* MultipartFormData.swift */,
+				0F2DF339B1EE843B82DB4F8F5F4EB955 /* MultipartUpload.swift */,
+				A0F1B883373401B737E1174716C5984A /* NetworkReachabilityManager.swift */,
+				58909D7129D6D4C143D2BAFEBE25CEBC /* Notifications.swift */,
+				2E1E6D64CAB9559E5CFCFC752E6A0C9D /* OperationQueue+Alamofire.swift */,
+				0B373829648EAB2190B2106DA72A9201 /* ParameterEncoder.swift */,
+				F2BAEAA8973DA57958D96603F5D5D0B6 /* ParameterEncoding.swift */,
+				6BB2587D75E5B48EDA798CB751DA1EB2 /* Protected.swift */,
+				A225535A82DB1EDE51EAD01B7A4C3C1B /* RedirectHandler.swift */,
+				A2EBE05DB34268DD5EAF86DDD350D5FB /* Request.swift */,
+				22A75682703D473B673E1126925D9C38 /* RequestInterceptor.swift */,
+				5BC45A3EB66BD84460F0AAE90C7724FD /* RequestTaskMap.swift */,
+				0ED9276A738DEF6430675C43EDCE12E9 /* Response.swift */,
+				AD132F231BBFFDBAB12DF785B2BFACF4 /* ResponseSerialization.swift */,
+				1D486EF1533154399D2122A71B18D3F6 /* Result+Alamofire.swift */,
+				9D2266F6A7122885EC9153B832275A00 /* RetryPolicy.swift */,
+				5AF3236CD08E6F1A8B2C07CBD8F771A3 /* ServerTrustEvaluation.swift */,
+				924A71A2A015EAF14D82A204284ADF27 /* Session.swift */,
+				F1C0A72895CC2C74C37D17AFD346CEBF /* SessionDelegate.swift */,
+				5D4D57F5513B880C47F94F85A300B7B1 /* StringEncoding+Alamofire.swift */,
+				B777727374FF2965313CA8A7C4639D75 /* URLConvertible+URLRequestConvertible.swift */,
+				53C225C9BBA08A59E3EB31B8A32F33C9 /* URLEncodedFormEncoder.swift */,
+				C15388EF2F96DB6CABDD307E65CFA4FE /* URLRequest+Alamofire.swift */,
+				35833E1C94F18BC8EDBE72538C95AE1E /* URLSessionConfiguration+Alamofire.swift */,
+				D0F4EB01A739E56F43F44D14386A58E5 /* Validation.swift */,
+				E5996624C7074D7A2CF2555540D787E2 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		9C5245AEDD5C0F1D9996171387866F12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				FF46A01D9BC3229F7B9C161513D8BBD5 /* MockingbirdFramework */,
+				A24174D58353098673F270353109D394 /* Pods-MarvelAPI */,
+				FF8CBC757C6D322F07CA49D947138036 /* Pods-MarvelAPI-MarvelAPIUITests */,
+				8A3F0AB01BD4E3BDEEEBAF4460DE06F0 /* Pods-MarvelAPITests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2EB00B1B9D3355D88C8A506325046BF /* Pods-MarvelAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB2CC2CBB224947C16E081BA74C3DD33 /* Pods-MarvelAPITests.modulemap */,
+				75EC4A60874CD402A9F962BA266C6799 /* Pods-MarvelAPITests-acknowledgements.markdown */,
+				E155C308AF1EEECB8F0980A1D936C645 /* Pods-MarvelAPITests-acknowledgements.plist */,
+				964736151CB18ED4D980EC5D349DE337 /* Pods-MarvelAPITests-dummy.m */,
+				2F1ED3EC7FFCD0F891FFFF083C879473 /* Pods-MarvelAPITests-frameworks.sh */,
+				BB01268BBC7C306A6F724764D7DBF5BD /* Pods-MarvelAPITests-Info.plist */,
+				E954302F48090D7A544F77B413C729BF /* Pods-MarvelAPITests-umbrella.h */,
+				737C28FA84479291BFCF0CFD5C06604E /* Pods-MarvelAPITests.debug.xcconfig */,
+				1DECA656BFB062C41E595A2BAEEF2737 /* Pods-MarvelAPITests.release.xcconfig */,
+			);
+			name = "Pods-MarvelAPITests";
+			path = "Target Support Files/Pods-MarvelAPITests";
+			sourceTree = "<group>";
+		};
+		B06177166A5C358E556CF1757458F235 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98E19A2698ACDB11D4993E8028840F2B /* Alamofire */,
+				425BD6F8E4FFA8102E1CF9293E407570 /* MockingbirdFramework */,
+				5324627B3EAFBA260786E06E117CBCCC /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB771C47B7174916F32C63D854194F6A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61433F37887A02843957272C260BF569 /* Pods-MarvelAPI */,
+				267286176A62AC1A8D12059D5D02D2E5 /* Pods-MarvelAPI-MarvelAPIUITests */,
+				A2EB00B1B9D3355D88C8A506325046BF /* Pods-MarvelAPITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				B06177166A5C358E556CF1757458F235 /* Pods */,
+				9C5245AEDD5C0F1D9996171387866F12 /* Products */,
+				CB771C47B7174916F32C63D854194F6A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E440DE47CFA69CA361F29DA52327AF39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9030A94FBF9E256F8C90A583D9F563FB /* SwiftLint.debug.xcconfig */,
+				5F86B33FDCA11010EE9905449CA63F47 /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		E5996624C7074D7A2CF2555540D787E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C85EF2BF2783AA0C058A9A27DE228A4F /* Alamofire.modulemap */,
+				02D111FA8D0F94248648728CD49B5525 /* Alamofire-dummy.m */,
+				5F01FA8702CF8DA57FB4EDBBBB3BC2CE /* Alamofire-Info.plist */,
+				29ED4630A4FE4C38C9BED392EA0A550A /* Alamofire-prefix.pch */,
+				39967A2F461C223F83E640F06CC73722 /* Alamofire-umbrella.h */,
+				BA547B66E561A11B28CECAC05B86D306 /* Alamofire.debug.xcconfig */,
+				79A846E9420A34F86B29B0ACE27ECE3D /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0289513BEE7E909381272BB85233B2E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48B77A304805E02871FB0A41E05F31C /* Pods-MarvelAPI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2305F8CFF8411662122B7E0225F7C990 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215588030575EA09B8C09D5C9EF72FE3 /* Pods-MarvelAPITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24860C8674C5D8F3C09CAF562308C926 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06F8BF00683D679AF36F11AB1ADAC6D /* Pods-MarvelAPI-MarvelAPIUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E6F7B26483BE3BC9393C6C05D32424 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005B319B494ED2DAA239B9939A504DFC /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E34CFA40690C7B9517D006FCDBEBC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10CB6FFC8743778AD997611F14A7249 /* MKBBoolInvocationHandler.h in Headers */,
+				449B03797CDDB69216AB4F654DB6345C /* MKBCharInvocationHandler.h in Headers */,
+				9CB35EFEFE34F3923A0305A9C0FCAECB /* MKBClassInvocationHandler.h in Headers */,
+				1F325508B87C731E972744480D825924 /* MKBClassMock.h in Headers */,
+				093E40682591FD3B72D432563652579F /* MKBComparator.h in Headers */,
+				EAF54545B54325D861DD42A83B056961 /* MKBConcreteMock.h in Headers */,
+				598CEFADE44CFD6B1FBD2A6F92C9BC94 /* MKBCStringInvocationHandler.h in Headers */,
+				D6548FAC9AC807E150C21B344DCB1396 /* MKBDoubleInvocationHandler.h in Headers */,
+				2675F8EC2CD5D9CF0F6FDC369A09BC6C /* MKBFloatInvocationHandler.h in Headers */,
+				85B150D4A1DCBD4FA31ED657DFC68034 /* MKBIntInvocationHandler.h in Headers */,
+				345BF19E8167BCA9515A6BE6CB2B0922 /* MKBInvocationHandler.h in Headers */,
+				3F263CFFE78AE38DA4972BAED310A80C /* MKBInvocationHandlerChain.h in Headers */,
+				6A8AE48A7088373ADDDEAEFE7F1C8AB1 /* MKBLongInvocationHandler.h in Headers */,
+				82C092CA31BC9084972CFC9CA014C76E /* MKBLongLongInvocationHandler.h in Headers */,
+				12C59D7E18E39E98B03D2A1D2D232380 /* MKBMocking.h in Headers */,
+				9AE095F730BF01D3AB3D6059F5EBDD81 /* MKBObjectInvocationHandler.h in Headers */,
+				374C01C3F9FDAC1BE79C1180D2A56926 /* MKBPointerInvocationHandler.h in Headers */,
+				390305A3863038E44BC034FB5A3A84CA /* MKBProperty.h in Headers */,
+				F2E213C4C986BC919A1D14EE9AADCCF2 /* MKBProtocolMock.h in Headers */,
+				A4D9CAFCF75FC0728222207620DBF150 /* MKBSelectorInvocationHandler.h in Headers */,
+				EDFD8FE653B1259777316F275C54D804 /* MKBShortInvocationHandler.h in Headers */,
+				21DCB06756FFC6A28A223DB0795D40E4 /* MKBStructInvocationHandler.h in Headers */,
+				8EBEA81B1B6CBD2A1D5FE95F361031D3 /* MKBTestExpectation.h in Headers */,
+				CD43F01C5730C0543D841C444C33DEEC /* MKBTestUtils.h in Headers */,
+				C11790685B2405E487C83B6ECE000C21 /* MKBTypeFacade.h in Headers */,
+				CDC70EBFE1FE530EEA821620AC5555AD /* MKBUnsignedCharInvocationHandler.h in Headers */,
+				455A8BF7E4758018D465627930EF06D2 /* MKBUnsignedIntInvocationHandler.h in Headers */,
+				C84E960A25FC93CE16E5D05B6A817BF1 /* MKBUnsignedLongInvocationHandler.h in Headers */,
+				E251EF97297CCF7D86DD163CF6B1327C /* MKBUnsignedLongLongInvocationHandler.h in Headers */,
+				991C1D7D52C40E5B1D1066417946DC6C /* MKBUnsignedShortInvocationHandler.h in Headers */,
+				1459652B8913C4FFDB7B466C561B4B33 /* Mockingbird.h in Headers */,
+				BB386EE83B0555832B06AABEA63F3737 /* MockingbirdFramework-umbrella.h in Headers */,
+				67E2B7CDE02F289594B9E9ADD9AB4A5F /* NSInvocation+MKBErrorObjectType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		61D438AB40BE6FBCAA956367F495DF55 /* MockingbirdFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5CB920F39CB46CE6A0EBE3E3261F904 /* Build configuration list for PBXNativeTarget "MockingbirdFramework" */;
+			buildPhases = (
+				58E34CFA40690C7B9517D006FCDBEBC9 /* Headers */,
+				DFDB593BAC81F184629C1D1BFF6274EA /* Sources */,
+				4D6AD94A83819720810409172D109F7D /* Frameworks */,
+				A6E95ED81BF3C560C061AFA108332FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockingbirdFramework;
+			productName = Mockingbird;
+			productReference = FF46A01D9BC3229F7B9C161513D8BBD5 /* MockingbirdFramework */;
+			productType = "com.apple.product-type.framework";
+		};
+		726F07C78D1697B2EF6EED80C60E7B57 /* Pods-MarvelAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E72B6CFA56AACBAE32259F11101541B /* Build configuration list for PBXNativeTarget "Pods-MarvelAPI" */;
+			buildPhases = (
+				0289513BEE7E909381272BB85233B2E7 /* Headers */,
+				9ED73CCA60D7FAADC9E258CDAC182F64 /* Sources */,
+				0E96BA1972F7D41227512B1F6B204CD3 /* Frameworks */,
+				194BD9B27211D54541267191987CE104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				493CA011AD1EB8DEF468D745341CE95A /* PBXTargetDependency */,
+				66FA822DD201D2604DBEB1D3378A68A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-MarvelAPI";
+			productName = Pods_MarvelAPI;
+			productReference = A24174D58353098673F270353109D394 /* Pods-MarvelAPI */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				52E6F7B26483BE3BC9393C6C05D32424 /* Headers */,
+				F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */,
+				15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */,
+				E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFE1A3B9DB2100D6D67791B186561947 /* Pods-MarvelAPI-MarvelAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4808A412CF75AA0D75BACB898D4E0553 /* Build configuration list for PBXNativeTarget "Pods-MarvelAPI-MarvelAPIUITests" */;
+			buildPhases = (
+				24860C8674C5D8F3C09CAF562308C926 /* Headers */,
+				E11A065228C57638779F2BF8371DF214 /* Sources */,
+				46AE387C22990B078509F063E95658CE /* Frameworks */,
+				9B5C10E61F66D2FA1C875F2286DC14C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5AB3DD4BAAF283DF83346A3503BF86 /* PBXTargetDependency */,
+				7DDBBAB2B163432B9929F94C543EAD10 /* PBXTargetDependency */,
+			);
+			name = "Pods-MarvelAPI-MarvelAPIUITests";
+			productName = Pods_MarvelAPI_MarvelAPIUITests;
+			productReference = FF8CBC757C6D322F07CA49D947138036 /* Pods-MarvelAPI-MarvelAPIUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F67EB3124866C2B2BE579C6B45D5A9F5 /* Pods-MarvelAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B432E2032524D0D61DFF1A24A6E9C6 /* Build configuration list for PBXNativeTarget "Pods-MarvelAPITests" */;
+			buildPhases = (
+				2305F8CFF8411662122B7E0225F7C990 /* Headers */,
+				A0D06140817244574D050CC6F76B7F49 /* Sources */,
+				2D23467E667CDEC1CAA34ED369F80048 /* Frameworks */,
+				DF6D00D8DDB80F768F4B06A1A0C38CE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81E3C0DE5DDC0BD090C25A8CF2635A0C /* PBXTargetDependency */,
+				88BCE4F5585F47067D87ED00713AC089 /* PBXTargetDependency */,
+			);
+			name = "Pods-MarvelAPITests";
+			productName = Pods_MarvelAPITests;
+			productReference = 8A3F0AB01BD4E3BDEEEBAF4460DE06F0 /* Pods-MarvelAPITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9C5245AEDD5C0F1D9996171387866F12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				61D438AB40BE6FBCAA956367F495DF55 /* MockingbirdFramework */,
+				726F07C78D1697B2EF6EED80C60E7B57 /* Pods-MarvelAPI */,
+				EFE1A3B9DB2100D6D67791B186561947 /* Pods-MarvelAPI-MarvelAPIUITests */,
+				F67EB3124866C2B2BE579C6B45D5A9F5 /* Pods-MarvelAPITests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		194BD9B27211D54541267191987CE104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5C10E61F66D2FA1C875F2286DC14C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E95ED81BF3C560C061AFA108332FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6D00D8DDB80F768F4B06A1A0C38CE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D4145FA41F60FFAB33A07796D9ED97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ED73CCA60D7FAADC9E258CDAC182F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195425110C6E7A2CA158324BE23BDA59 /* Pods-MarvelAPI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D06140817244574D050CC6F76B7F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2529876DF4C9C29B9BFE968816C7F3 /* Pods-MarvelAPITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDB593BAC81F184629C1D1BFF6274EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7386C8860E69CAE60D11D9E9D679F05C /* ArgumentCaptor.swift in Sources */,
+				1BEB510F9049ED18583701CC3D5D1D90 /* ArgumentMatcher.swift in Sources */,
+				52B6F980BC534DCB34FB56B87F01A57C /* ArgumentPosition.swift in Sources */,
+				2DB2794D357863D8E1EE60E7D3E8D8F4 /* Array+Extensions.swift in Sources */,
+				31374437A8A3C2DC0198B8EDFB470555 /* AsyncVerification.swift in Sources */,
+				6F780C8ECD8ED5DC0193F0179FE4161E /* CollectionMatchers.swift in Sources */,
+				5EDE5E8768748121AEDDE11861258FDA /* Context.swift in Sources */,
+				DEDE87C8F47A88F108AE522F00F1ACA5 /* CountMatcher.swift in Sources */,
+				B33DC77CADCC167791D05C6966C3DECE /* CwlDemangle.swift in Sources */,
+				EE18F1AB467673D8F9C36273A189D13A /* Data+SHA1.swift in Sources */,
+				F992B44BBD4D05644EAC5E853B002EED /* Declaration.swift in Sources */,
+				E911A74C53CBD322966F2834F960A083 /* DefaultValues.swift in Sources */,
+				BBB0C49C181A0C94FFC5561467DC5604 /* DynamicCast.swift in Sources */,
+				EAA566DA4F4383F64CC816C5C92A9B22 /* DynamicStubbingManager.swift in Sources */,
+				7FE91A3A30666B3C318CEE5A1D2EB38A /* ExpectationGroup.swift in Sources */,
+				52CDB4D273E41A17962025FE49A51F64 /* GenericStaticMockContext.swift in Sources */,
+				67D3A3909CFE29E0639510B5EB9665E4 /* ImplementationProvider.swift in Sources */,
+				CDAF911295A4ED94D6942CD685A41D2A /* Invocation.swift in Sources */,
+				893C460479F364137E1DA8F41F81077C /* InvocationForwarding.swift in Sources */,
+				D603BCBEA99CF0D47112CC09183AD673 /* InvocationRecorder.swift in Sources */,
+				566BA02DA9C0C10299E6768DB1CE9A71 /* MKBBoolInvocationHandler.m in Sources */,
+				5277E11E6737F1287227823140B0760E /* MKBCharInvocationHandler.m in Sources */,
+				E5F78450BA44DE6C718BA603A961AFD7 /* MKBClassInvocationHandler.m in Sources */,
+				591DE656B7CA79DEA5333BC06C424648 /* MKBClassMock.m in Sources */,
+				B69EB2D06197C0F4470724D66A6D70D4 /* MKBComparator.m in Sources */,
+				61EBFC59C163F93AD7C9BE594CC3B132 /* MKBConcreteMock.m in Sources */,
+				CEE58AD7D1730AB249DA3F30C8EB6298 /* MKBCStringInvocationHandler.m in Sources */,
+				027143A0A1A25BCBAC9182309E9A345A /* MKBDoubleInvocationHandler.m in Sources */,
+				E876FD46CC867F452218E5BCE9D45839 /* MKBFloatInvocationHandler.m in Sources */,
+				85CAD5C30CED4F5A2792133ED94D144C /* MKBIntInvocationHandler.m in Sources */,
+				18ADDA0D3B787779CBE20AA23F77B918 /* MKBInvocationHandler.m in Sources */,
+				F7533B2A621FD0FF28079C991DE9B34C /* MKBInvocationHandlerChain.m in Sources */,
+				3A8F64F2372895BF643016E6852C8FAF /* MKBLongInvocationHandler.m in Sources */,
+				0D40058834D3D0CCFB55085B025057F5 /* MKBLongLongInvocationHandler.m in Sources */,
+				A4C777FFE5049EABF8A7E76366BDE977 /* MKBMocking.m in Sources */,
+				3A889E05BC34BB632912D7A935648EE9 /* MKBObjectInvocationHandler.m in Sources */,
+				66931DA832FF9823FD71F4A6DE2A833D /* MKBPointerInvocationHandler.m in Sources */,
+				012FC7E01CA2206FA374418A23083CC2 /* MKBProperty.m in Sources */,
+				92C6977A48815A2EA2AF94AAA7AA0AE0 /* MKBProtocolMock.m in Sources */,
+				469C18DA292AD10CD963F0805D37F15E /* MKBSelectorInvocationHandler.m in Sources */,
+				8B49F934684D05ACE34307237F42AEAD /* MKBShortInvocationHandler.m in Sources */,
+				149B0669D764EA757CEE658CB3557CA1 /* MKBStructInvocationHandler.m in Sources */,
+				DC946362085EEE42A3C74A67BB2CE55C /* MKBTestExpectation.m in Sources */,
+				44CF6AE12DAED6072D2DB734DAD6435F /* MKBTestUtils.m in Sources */,
+				DA06FFD56BE33756C5E4E9A646EE4A42 /* MKBTypeFacade.m in Sources */,
+				757BE38256033D7C70889EE3E1F36830 /* MKBUnsignedCharInvocationHandler.m in Sources */,
+				85BF71F45B9B7AA0664E6DF9C86C3373 /* MKBUnsignedIntInvocationHandler.m in Sources */,
+				7FC349F0DC8CD2B3C6AE109C750B8C81 /* MKBUnsignedLongInvocationHandler.m in Sources */,
+				5234E978ED1578507733706B55621AAE /* MKBUnsignedLongLongInvocationHandler.m in Sources */,
+				C7B6ED048674F040C45162DD84D9E1DB /* MKBUnsignedShortInvocationHandler.m in Sources */,
+				68EB2AF22B61F860A22F21DB2E1F25B8 /* Mock.swift in Sources */,
+				B07AAAD343587E9E2CA376F9649BBA78 /* Mocking.swift in Sources */,
+				E8698C57266048A79D7130158C9A8A74 /* MockingbirdBridge.swift in Sources */,
+				6A9AF91D022CFD75F8D197C171507602 /* MockingbirdFramework-dummy.m in Sources */,
+				B99CED8A6A3648B97B3CD8F025AC90F7 /* MockingContext.swift in Sources */,
+				3E3539F0033F85CFF3580C465C391417 /* MonotonicIncreasingIndex.swift in Sources */,
+				4A0FA0A904A00548C170559D8B8EA05C /* NonEscapingType.swift in Sources */,
+				7F3F7CB32BE8E0B7EDDE92B1C55FCB56 /* NSInvocation+MKBErrorObjectType.m in Sources */,
+				B59E26D015442C6FEB1D3279443C09FF /* ObjCTypeEncodings.swift in Sources */,
+				6233138F084FD8D30FE6D70A4C4B6BEC /* Optional+Extensions.swift in Sources */,
+				122866B0241C357DC54B7BF62516356A /* OrderedVerification.swift in Sources */,
+				9B036963C5EFE387222BCEFA4799D8AC /* ProcessInfo+ControlCodes.swift in Sources */,
+				5A40B6B5B34C45015F26968B33383CD0 /* PropertyProviders.swift in Sources */,
+				2AF4FF307196790D04E717B45C831658 /* ProxyContext.swift in Sources */,
+				9877AE1FEA4ECB0197C00B915854708C /* SequenceProviders.swift in Sources */,
+				D1C7C37F94774A4EB6FC39451A7E24EB /* SourceLocation.swift in Sources */,
+				4E8889345DA23C9990F7AAC1BA25A04C /* StackTrace.swift in Sources */,
+				2F3202C648917BC07EBF2B145755A49A /* String+ControlCodes.swift in Sources */,
+				C89652118FD9A8082FD0380B70FD7644 /* String+Extensions.swift in Sources */,
+				7D0794C8DAC9EB62A10097BB1416AC06 /* String+Interpolation.swift in Sources */,
+				F709B621BCF03B238EE7227FE359A07E /* String+Regex.swift in Sources */,
+				3C75E519C426E6B8346063910DAAD695 /* Stubbing.swift in Sources */,
+				FE2F7BC5015978DDC5C2EE76804F8534 /* Stubbing+ObjC.swift in Sources */,
+				14150D10AB4137CE28D7F9AADB2B123B /* StubbingContext.swift in Sources */,
+				1818564D58842892F0C422989B54E373 /* StubbingContext+ObjC.swift in Sources */,
+				CD40BEEC1FBBEF9ECF3353DDB8285F19 /* Synchronized.swift in Sources */,
+				1FBE2156B53945DD372D80A8C42AB26F /* TestFailure.swift in Sources */,
+				A4601DAB4ED83D04B57248B67D7BC28C /* TypeFacade.swift in Sources */,
+				64206CA0E3107DFBEC950E09758826BB /* ValueProvider.swift in Sources */,
+				404CF19775F988F39BE7CEDAC72333FB /* ValueProvider+Collections.swift in Sources */,
+				8AFCF85552C9759AF4D99C43AFE3FAB9 /* ValueProvider+Foundation.swift in Sources */,
+				B42B2EE344300B30DA26D63DFC380FFD /* ValueProvider+Tuples.swift in Sources */,
+				5C2BEFB239837F153A00F6FF4A7EC083 /* Verification.swift in Sources */,
+				11E81399B385C451FEF1F06345F9E63B /* Version.swift in Sources */,
+				37EF125311EF2C705649D731FD8B4DDB /* WildcardMatchers.swift in Sources */,
+				3611DC6DA6919D1EACBC218C05713BB1 /* XCTFailSwizzler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11A065228C57638779F2BF8371DF214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0F2CAE3238CBA85827627FE230FBE7 /* Pods-MarvelAPI-MarvelAPIUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D2A45FBA06D86A537CB441D5BF4FF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */,
+				F17A4CA4664CABB331D39FE902E06843 /* Alamofire.swift in Sources */,
+				55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */,
+				1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */,
+				7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */,
+				2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */,
+				46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */,
+				9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */,
+				EEC150B66BCCD6C80FDA7E4D1975166B /* DispatchQueue+Alamofire.swift in Sources */,
+				CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */,
+				7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */,
+				D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */,
+				7FE695DA8EE7FF1286556E06B692009B /* MultipartFormData.swift in Sources */,
+				E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */,
+				A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */,
+				2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */,
+				E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */,
+				99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */,
+				68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */,
+				A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */,
+				045DE6EBF9B2F63F60F5BE60C1198E06 /* RedirectHandler.swift in Sources */,
+				B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */,
+				DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */,
+				DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */,
+				75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */,
+				824D816B1EE404F2DD400EE678695CBE /* ResponseSerialization.swift in Sources */,
+				04A896288CE3A59B530250337A5F8362 /* Result+Alamofire.swift in Sources */,
+				33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */,
+				B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */,
+				81B8D2B7CEB25C2448B0BC9B33591A65 /* Session.swift in Sources */,
+				1976BB7D7E26A12E29283E71154B63B3 /* SessionDelegate.swift in Sources */,
+				7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */,
+				8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */,
+				BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */,
+				808C960C82D708FC1A42C581D6CB4940 /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		493CA011AD1EB8DEF468D745341CE95A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 03D42558CC0D5E1CD12FD73061681C58 /* PBXContainerItemProxy */;
+		};
+		66FA822DD201D2604DBEB1D3378A68A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = B8A54385086DCCFAFB3C49E3B9A001AE /* PBXContainerItemProxy */;
+		};
+		7DDBBAB2B163432B9929F94C543EAD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = EE5733C32839E53B2DBE1A6775EB6A42 /* PBXContainerItemProxy */;
+		};
+		81E3C0DE5DDC0BD090C25A8CF2635A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MockingbirdFramework;
+			target = 61D438AB40BE6FBCAA956367F495DF55 /* MockingbirdFramework */;
+			targetProxy = C312B2265E57D9A0269C32B1D0C07DB6 /* PBXContainerItemProxy */;
+		};
+		88BCE4F5585F47067D87ED00713AC089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MarvelAPI";
+			target = 726F07C78D1697B2EF6EED80C60E7B57 /* Pods-MarvelAPI */;
+			targetProxy = 40DC0EB661ACDBA7EA4175DD2CFCD96E /* PBXContainerItemProxy */;
+		};
+		FB5AB3DD4BAAF283DF83346A3503BF86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 8EC765C3B2202BACF945252225DE5164 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		177B776973922597FB560B973200448C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94818449DAA62A368C6172EBFDF935A9 /* Pods-MarvelAPI-MarvelAPIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarvelAPI-MarvelAPIUITests/Pods-MarvelAPI-MarvelAPIUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarvelAPI-MarvelAPIUITests/Pods-MarvelAPI-MarvelAPIUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EFDEE15747F06FC393D2E478B0174EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CDF82AEF207B87DD71CE5C6EF05829B /* MockingbirdFramework.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MockingbirdFramework/MockingbirdFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MockingbirdFramework/MockingbirdFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MockingbirdFramework/MockingbirdFramework.modulemap";
+				PRODUCT_MODULE_NAME = Mockingbird;
+				PRODUCT_NAME = Mockingbird;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		64DFE32B0396B992DBEE2DE93CB8A687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D860A0BF207591D6ECF1A33D12B3A6F /* Pods-MarvelAPI.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarvelAPI/Pods-MarvelAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarvelAPI/Pods-MarvelAPI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		880219FBBFBA4B703A46B5F770D59ADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA547B66E561A11B28CECAC05B86D306 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89FACDCC06996B9210787EED7BDBD6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7EF1DC040248BB52D21AFD0B4FAA02 /* Pods-MarvelAPI-MarvelAPIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarvelAPI-MarvelAPIUITests/Pods-MarvelAPI-MarvelAPIUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarvelAPI-MarvelAPIUITests/Pods-MarvelAPI-MarvelAPIUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F86B33FDCA11010EE9905449CA63F47 /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B316461A868D79145DCCA865E200DA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DECA656BFB062C41E595A2BAEEF2737 /* Pods-MarvelAPITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarvelAPITests/Pods-MarvelAPITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarvelAPITests/Pods-MarvelAPITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BAB87A4513AABA5005F6F12C7A0D211D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 573DC535B010C14B91C3069172DA1C18 /* MockingbirdFramework.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MockingbirdFramework/MockingbirdFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MockingbirdFramework/MockingbirdFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MockingbirdFramework/MockingbirdFramework.modulemap";
+				PRODUCT_MODULE_NAME = Mockingbird;
+				PRODUCT_NAME = Mockingbird;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8FF5D72E21AEA9030F13E02333C3F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECFF79B8DEC27C3D7593335AE6CA283 /* Pods-MarvelAPI.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarvelAPI/Pods-MarvelAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarvelAPI/Pods-MarvelAPI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBBF46855F9A908937FFE6178CDCD01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 737C28FA84479291BFCF0CFD5C06604E /* Pods-MarvelAPITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarvelAPITests/Pods-MarvelAPITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarvelAPITests/Pods-MarvelAPITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9030A94FBF9E256F8C90A583D9F563FB /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F95E4C330E939A7027D8A4E361545DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A846E9420A34F86B29B0ACE27ECE3D /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4808A412CF75AA0D75BACB898D4E0553 /* Build configuration list for PBXNativeTarget "Pods-MarvelAPI-MarvelAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177B776973922597FB560B973200448C /* Debug */,
+				89FACDCC06996B9210787EED7BDBD6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E72B6CFA56AACBAE32259F11101541B /* Build configuration list for PBXNativeTarget "Pods-MarvelAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FF5D72E21AEA9030F13E02333C3F88 /* Debug */,
+				64DFE32B0396B992DBEE2DE93CB8A687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A212264186B8822192F9C369D7DE4BB /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880219FBBFBA4B703A46B5F770D59ADF /* Debug */,
+				F95E4C330E939A7027D8A4E361545DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8B432E2032524D0D61DFF1A24A6E9C6 /* Build configuration list for PBXNativeTarget "Pods-MarvelAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBF46855F9A908937FFE6178CDCD01E /* Debug */,
+				B316461A868D79145DCCA865E200DA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5CB920F39CB46CE6A0EBE3E3261F904 /* Build configuration list for PBXNativeTarget "MockingbirdFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFDEE15747F06FC393D2E478B0174EE /* Debug */,
+				BAB87A4513AABA5005F6F12C7A0D211D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

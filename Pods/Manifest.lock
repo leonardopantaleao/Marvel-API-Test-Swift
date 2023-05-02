@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.6.4)
+  - MockingbirdFramework (0.20.0)
+  - SwiftLint (0.51.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - MockingbirdFramework
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MockingbirdFramework
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  MockingbirdFramework: 54e35fbbb47b806c1a1fae2cf3ef99f6eceb55e5
+  SwiftLint: 1b7561918a19e23bfed960e40759086e70f4dba5
+
+PODFILE CHECKSUM: 01d134ad0147db5e1d23e982fa94f88f6357ca14
+
+COCOAPODS: 1.12.0
