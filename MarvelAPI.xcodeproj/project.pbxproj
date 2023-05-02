@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CB6B5A12A014F1D0079C6B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6B5A02A014F1D0079C6B9 /* ContentView.swift */; };
+		0C8511022A0156BF0025F92F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8511012A0156BF0025F92F /* LoginView.swift */; };
+		0C8511042A0156DF0025F92F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8511032A0156DF0025F92F /* LoginViewModel.swift */; };
+		0C8511062A0156F20025F92F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8511052A0156F20025F92F /* CustomButton.swift */; };
+		0C8511082A01570E0025F92F /* PrimaryActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8511072A01570E0025F92F /* PrimaryActionButton.swift */; };
+		0C85110A2A01572B0025F92F /* ImageAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8511092A01572B0025F92F /* ImageAssets.swift */; };
+		0C85110C2A01573B0025F92F /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85110B2A01573B0025F92F /* Color+Extensions.swift */; };
+		0C85110E2A0159430025F92F /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85110D2A0159430025F92F /* LoginTests.swift */; };
 		0CB6B5A32A014F1F0079C6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB6B5A22A014F1F0079C6B9 /* Assets.xcassets */; };
 		0CB6B5A62A014F1F0079C6B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB6B5A52A014F1F0079C6B9 /* Preview Assets.xcassets */; };
 		0CB6B5B02A014F1F0079C6B9 /* MarvelAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6B5AF2A014F1F0079C6B9 /* MarvelAPITests.swift */; };
@@ -37,8 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C8511012A0156BF0025F92F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0C8511032A0156DF0025F92F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		0C8511052A0156F20025F92F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		0C8511072A01570E0025F92F /* PrimaryActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryActionButton.swift; sourceTree = "<group>"; };
+		0C8511092A01572B0025F92F /* ImageAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAssets.swift; sourceTree = "<group>"; };
+		0C85110B2A01573B0025F92F /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		0C85110D2A0159430025F92F /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
 		0CB6B59B2A014F1D0079C6B9 /* MarvelAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CB6B5A02A014F1D0079C6B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0CB6B5A22A014F1F0079C6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CB6B5A52A014F1F0079C6B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0CB6B5AB2A014F1F0079C6B9 /* MarvelAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +98,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C8510FF2A0156A30025F92F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0C8511012A0156BF0025F92F /* LoginView.swift */,
+				0C8511032A0156DF0025F92F /* LoginViewModel.swift */,
+				0C8511052A0156F20025F92F /* CustomButton.swift */,
+				0C8511072A01570E0025F92F /* PrimaryActionButton.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0C8511002A0156B00025F92F /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				0C8511092A01572B0025F92F /* ImageAssets.swift */,
+				0C85110B2A01573B0025F92F /* Color+Extensions.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		0CB6B5922A014F1D0079C6B9 = {
 			isa = PBXGroup;
 			children = (
@@ -111,7 +143,8 @@
 		0CB6B59D2A014F1D0079C6B9 /* MarvelAPI */ = {
 			isa = PBXGroup;
 			children = (
-				0CB6B5A02A014F1D0079C6B9 /* ContentView.swift */,
+				0C8511002A0156B00025F92F /* CustomViews */,
+				0C8510FF2A0156A30025F92F /* Login */,
 				0CB6B5A22A014F1F0079C6B9 /* Assets.xcassets */,
 				0CB6B5A42A014F1F0079C6B9 /* Preview Content */,
 				0CB6B5C82A014FF30079C6B9 /* SceneDelegate.swift */,
@@ -131,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				0CB6B5AF2A014F1F0079C6B9 /* MarvelAPITests.swift */,
+				0C85110D2A0159430025F92F /* LoginTests.swift */,
 			);
 			path = MarvelAPITests;
 			sourceTree = "<group>";
@@ -154,7 +188,6 @@
 				174DCE22DF93F67BDB77D539 /* Pods-MarvelAPITests.debug.xcconfig */,
 				409B3BA20C221095658D8D11 /* Pods-MarvelAPITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -424,8 +457,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CB6B5A12A014F1D0079C6B9 /* ContentView.swift in Sources */,
+				0C8511042A0156DF0025F92F /* LoginViewModel.swift in Sources */,
+				0C8511022A0156BF0025F92F /* LoginView.swift in Sources */,
+				0C85110C2A01573B0025F92F /* Color+Extensions.swift in Sources */,
 				0CB6B5C92A014FF30079C6B9 /* SceneDelegate.swift in Sources */,
+				0C8511082A01570E0025F92F /* PrimaryActionButton.swift in Sources */,
+				0C85110A2A01572B0025F92F /* ImageAssets.swift in Sources */,
+				0C8511062A0156F20025F92F /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +472,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CB6B5B02A014F1F0079C6B9 /* MarvelAPITests.swift in Sources */,
+				0C85110E2A0159430025F92F /* LoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
