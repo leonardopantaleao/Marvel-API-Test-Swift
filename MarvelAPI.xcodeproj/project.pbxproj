@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CB6B59F2A014F1D0079C6B9 /* MarvelAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6B59E2A014F1D0079C6B9 /* MarvelAPIApp.swift */; };
 		0CB6B5A12A014F1D0079C6B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6B5A02A014F1D0079C6B9 /* ContentView.swift */; };
 		0CB6B5A32A014F1F0079C6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB6B5A22A014F1F0079C6B9 /* Assets.xcassets */; };
 		0CB6B5A62A014F1F0079C6B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB6B5A52A014F1F0079C6B9 /* Preview Assets.xcassets */; };
 		0CB6B5B02A014F1F0079C6B9 /* MarvelAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6B5AF2A014F1F0079C6B9 /* MarvelAPITests.swift */; };
 		0CB6B5BA2A014F1F0079C6B9 /* MarvelAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6B5B92A014F1F0079C6B9 /* MarvelAPIUITests.swift */; };
 		0CB6B5BC2A014F1F0079C6B9 /* MarvelAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6B5BB2A014F1F0079C6B9 /* MarvelAPIUITestsLaunchTests.swift */; };
+		0CB6B5C92A014FF30079C6B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6B5C82A014FF30079C6B9 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 
 /* Begin PBXFileReference section */
 		0CB6B59B2A014F1D0079C6B9 /* MarvelAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CB6B59E2A014F1D0079C6B9 /* MarvelAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPIApp.swift; sourceTree = "<group>"; };
 		0CB6B5A02A014F1D0079C6B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0CB6B5A22A014F1F0079C6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CB6B5A52A014F1F0079C6B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +43,7 @@
 		0CB6B5B52A014F1F0079C6B9 /* MarvelAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB6B5B92A014F1F0079C6B9 /* MarvelAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPIUITests.swift; sourceTree = "<group>"; };
 		0CB6B5BB2A014F1F0079C6B9 /* MarvelAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CB6B5C82A014FF30079C6B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +94,10 @@
 		0CB6B59D2A014F1D0079C6B9 /* MarvelAPI */ = {
 			isa = PBXGroup;
 			children = (
-				0CB6B59E2A014F1D0079C6B9 /* MarvelAPIApp.swift */,
 				0CB6B5A02A014F1D0079C6B9 /* ContentView.swift */,
 				0CB6B5A22A014F1F0079C6B9 /* Assets.xcassets */,
 				0CB6B5A42A014F1F0079C6B9 /* Preview Content */,
+				0CB6B5C82A014FF30079C6B9 /* SceneDelegate.swift */,
 			);
 			path = MarvelAPI;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				};
 			};
 			buildConfigurationList = 0CB6B5962A014F1D0079C6B9 /* Build configuration list for PBXProject "MarvelAPI" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CB6B5A12A014F1D0079C6B9 /* ContentView.swift in Sources */,
-				0CB6B59F2A014F1D0079C6B9 /* MarvelAPIApp.swift in Sources */,
+				0CB6B5C92A014FF30079C6B9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +345,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +400,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -420,11 +422,12 @@
 				DEVELOPMENT_TEAM = V5S8Q358PB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MarvelAPI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,9 +435,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.panta.MarvelAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,11 +455,12 @@
 				DEVELOPMENT_TEAM = V5S8Q358PB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MarvelAPI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,9 +468,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.panta.MarvelAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
