@@ -55,7 +55,9 @@ struct LoginView: View {
                         .foregroundColor(.white)
                         .font(.footnote)
                     Button("GitHub") {
-                        
+                        if let url = URL(string: "https://github.com/leonardopantaleao") {
+                            UIApplication.shared.open(url)
+                        }
                     }
                     .font(.footnote)
                     .foregroundColor(.blue)
