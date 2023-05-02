@@ -47,6 +47,7 @@ final class LoginTests: XCTestCase {
         XCTAssertEqual(UserDefaults.standard.string(forKey: "publicKey") ?? "", "")
         XCTAssertEqual(UserDefaults.standard.string(forKey: "md5Hash") ?? "", "")
         XCTAssertTrue(self.sut.showError)
+        XCTAssertFalse(self.sut.isShowingMainView)
     }
     
     func testMD5HashEmpty() {
@@ -59,6 +60,7 @@ final class LoginTests: XCTestCase {
         XCTAssertEqual(UserDefaults.standard.string(forKey: "publicKey") ?? "", "")
         XCTAssertEqual(UserDefaults.standard.string(forKey: "md5Hash") ?? "", "")
         XCTAssertTrue(self.sut.showError)
+        XCTAssertFalse(self.sut.isShowingMainView)
     }
     
     func testFieldsStoredSuccessfully() {
@@ -71,6 +73,7 @@ final class LoginTests: XCTestCase {
         XCTAssertEqual(UserDefaults.standard.string(forKey: "publicKey") ?? "", "testPublicKey")
         XCTAssertEqual(UserDefaults.standard.string(forKey: "md5Hash") ?? "", "testMd5Hash")
         XCTAssertFalse(self.sut.showError)
+        XCTAssertTrue(self.sut.isShowingMainView)
     }
 
 }
