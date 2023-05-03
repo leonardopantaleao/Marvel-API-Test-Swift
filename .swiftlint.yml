@@ -1,2 +1,2 @@
-excluded: [Frameworks, Pods]
+excluded: [Frameworks, Pods, MockingbirdMocks]
 

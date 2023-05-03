@@ -5,6 +5,8 @@
 //  Created by LEONARDO P S P LEAO on 02/05/23.
 //
 
+import Combine
+import Mockingbird
 import XCTest
 @testable import MarvelAPI
 
