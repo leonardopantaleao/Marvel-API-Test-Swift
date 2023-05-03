@@ -13,7 +13,7 @@ struct LoginView: View {
         NavigationView {
             ZStack(alignment: .center) {
                 NavigationLink(
-                    destination: Text("Second View"),
+                    destination: ComicsListView(viewModel: self.viewModel.comicsViewModel),
                     isActive: self.$viewModel.isShowingMainView) { EmptyView() }
                 Color.marvelRed
                     .edgesIgnoringSafeArea(.all)

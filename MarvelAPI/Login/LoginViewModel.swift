@@ -12,12 +12,14 @@ class LoginViewModel: ObservableObject {
     @Published var md5Hash = ""
     @Published var showError = false
     @Published var isShowingMainView = false
+    let comicsViewModel = ComicsListViewModel(marvelAPIClient: MarvelAPIClient())
     func tryItOutButtonTapped() {
         if !self.publicKey.isEmpty && !self.md5Hash.isEmpty {
             self.showError = false
             UserDefaults.standard.set(self.publicKey, forKey: "publicKey")
             UserDefaults.standard.set(self.md5Hash, forKey: "md5Hash")
             self.isShowingMainView = true
+            self.comicsViewModel.fetchComics()
         } else {
             self.showError = true
         }

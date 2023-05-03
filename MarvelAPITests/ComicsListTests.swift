@@ -69,5 +69,14 @@ final class ComicsListTests: XCTestCase {
         XCTAssertFalse(self.sut.showError)
         XCTAssertEqual(self.sut.comics[0].title, expectedResult[0].title)
     }
+    func testFormatter() {
+        // given
+        let value = 3.99
+        let expectedString = "$3.99"
+        // when
+        let result = self.sut.formatPrice(price: value)
+        // then
+        XCTAssertEqual(result, expectedString)
+    }
 
 }

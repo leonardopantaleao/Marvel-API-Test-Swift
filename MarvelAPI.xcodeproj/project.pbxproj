@@ -23,6 +23,8 @@
 		0C8511232A01B3480025F92F /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8511222A01B3480025F92F /* LottieView.swift */; };
 		0C8511252A01BC080025F92F /* MarvelAPIClientTestDataMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8511242A01BC080025F92F /* MarvelAPIClientTestDataMock.swift */; };
 		0C8511272A0299AC0025F92F /* MarvelAPIClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8511262A0299AC0025F92F /* MarvelAPIClientError.swift */; };
+		0C85112D2A0323970025F92F /* MD5Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85112C2A0323970025F92F /* MD5Hash.swift */; };
+		0C85112F2A032A5C0025F92F /* ComicResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85112E2A032A5C0025F92F /* ComicResponse.swift */; };
 		0CB6B5A32A014F1F0079C6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB6B5A22A014F1F0079C6B9 /* Assets.xcassets */; };
 		0CB6B5A62A014F1F0079C6B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB6B5A52A014F1F0079C6B9 /* Preview Assets.xcassets */; };
 		0CB6B5BA2A014F1F0079C6B9 /* MarvelAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6B5B92A014F1F0079C6B9 /* MarvelAPIUITests.swift */; };
@@ -68,6 +70,8 @@
 		0C8511222A01B3480025F92F /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		0C8511242A01BC080025F92F /* MarvelAPIClientTestDataMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPIClientTestDataMock.swift; sourceTree = "<group>"; };
 		0C8511262A0299AC0025F92F /* MarvelAPIClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPIClientError.swift; sourceTree = "<group>"; };
+		0C85112C2A0323970025F92F /* MD5Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5Hash.swift; sourceTree = "<group>"; };
+		0C85112E2A032A5C0025F92F /* ComicResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicResponse.swift; sourceTree = "<group>"; };
 		0CB6B59B2A014F1D0079C6B9 /* MarvelAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB6B5A22A014F1F0079C6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CB6B5A52A014F1F0079C6B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -77,7 +81,6 @@
 		0CB6B5BB2A014F1F0079C6B9 /* MarvelAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0CB6B5C82A014FF30079C6B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		174DCE22DF93F67BDB77D539 /* Pods-MarvelAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelAPITests.debug.xcconfig"; path = "Target Support Files/Pods-MarvelAPITests/Pods-MarvelAPITests.debug.xcconfig"; sourceTree = "<group>"; };
-		2F25E5FFB61B6C731E92504B /* MarvelAPITests-MarvelAPIMocks.generated.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "MarvelAPITests-MarvelAPIMocks.generated.swift"; path = "MockingbirdMocks/MarvelAPITests-MarvelAPIMocks.generated.swift"; sourceTree = "<group>"; };
 		409B3BA20C221095658D8D11 /* Pods-MarvelAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelAPITests.release.xcconfig"; path = "Target Support Files/Pods-MarvelAPITests/Pods-MarvelAPITests.release.xcconfig"; sourceTree = "<group>"; };
 		554CB5FB81ACD12BE04AAF44 /* Pods-MarvelAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelAPI.release.xcconfig"; path = "Target Support Files/Pods-MarvelAPI/Pods-MarvelAPI.release.xcconfig"; sourceTree = "<group>"; };
 		9855BD78FF2E1C674A2FFFA4 /* Pods_MarvelAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarvelAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +88,7 @@
 		AFFD9057A96EFD25AF5401AE /* Pods-MarvelAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelAPI.debug.xcconfig"; path = "Target Support Files/Pods-MarvelAPI/Pods-MarvelAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		C782117D1B0FF844AA000189 /* Pods-MarvelAPI-MarvelAPIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelAPI-MarvelAPIUITests.release.xcconfig"; path = "Target Support Files/Pods-MarvelAPI-MarvelAPIUITests/Pods-MarvelAPI-MarvelAPIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CDE3F3180BF4FEF0309A393F /* Pods_MarvelAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarvelAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E71EBB60A84BA00A387CF291 /* MarvelAPITests-MarvelAPIMocks.generated.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; lastKnownFileType = sourcecode.swift; name = "MarvelAPITests-MarvelAPIMocks.generated.swift"; path = "MockingbirdMocks/MarvelAPITests-MarvelAPIMocks.generated.swift"; sourceTree = "<group>"; };
+		E71EBB60A84BA00A387CF291 /* MarvelAPITests-MarvelAPIMocks.generated.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "MarvelAPITests-MarvelAPIMocks.generated.swift"; path = "MockingbirdMocks/MarvelAPITests-MarvelAPIMocks.generated.swift"; sourceTree = "<group>"; };
 		EE7FEB05204DF87F7C46C343 /* Pods_MarvelAPI_MarvelAPIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarvelAPI_MarvelAPIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -124,6 +127,7 @@
 				0C8511032A0156DF0025F92F /* LoginViewModel.swift */,
 				0C8511052A0156F20025F92F /* CustomButton.swift */,
 				0C8511072A01570E0025F92F /* PrimaryActionButton.swift */,
+				0C85112C2A0323970025F92F /* MD5Hash.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -146,6 +150,7 @@
 				0C85111A2A01A4EC0025F92F /* MarvelAPIClient.swift */,
 				0C8511242A01BC080025F92F /* MarvelAPIClientTestDataMock.swift */,
 				0C8511262A0299AC0025F92F /* MarvelAPIClientError.swift */,
+				0C85112E2A032A5C0025F92F /* ComicResponse.swift */,
 			);
 			path = Comics;
 			sourceTree = "<group>";
@@ -444,13 +449,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MarvelAPI/Pods-MarvelAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MarvelAPI/Pods-MarvelAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -465,13 +466,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MarvelAPI-MarvelAPIUITests/Pods-MarvelAPI-MarvelAPIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MarvelAPI-MarvelAPIUITests/Pods-MarvelAPI-MarvelAPIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -486,13 +483,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MarvelAPITests/Pods-MarvelAPITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MarvelAPITests/Pods-MarvelAPITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -571,8 +564,10 @@
 				0C8511022A0156BF0025F92F /* LoginView.swift in Sources */,
 				0C8511142A0161A90025F92F /* ComicsListViewModel.swift in Sources */,
 				0C85110C2A01573B0025F92F /* Color+Extensions.swift in Sources */,
+				0C85112D2A0323970025F92F /* MD5Hash.swift in Sources */,
 				0CB6B5C92A014FF30079C6B9 /* SceneDelegate.swift in Sources */,
 				0C8511102A0161630025F92F /* ComicsListView.swift in Sources */,
+				0C85112F2A032A5C0025F92F /* ComicResponse.swift in Sources */,
 				0C8511082A01570E0025F92F /* PrimaryActionButton.swift in Sources */,
 				0C8511162A0185920025F92F /* Comic.swift in Sources */,
 				0C8511252A01BC080025F92F /* MarvelAPIClientTestDataMock.swift in Sources */,
