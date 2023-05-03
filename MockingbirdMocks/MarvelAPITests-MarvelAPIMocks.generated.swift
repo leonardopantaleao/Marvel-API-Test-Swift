@@ -8,6 +8,7 @@
 
 @testable import MarvelAPI
 @testable import Mockingbird
+import Alamofire
 import Combine
 import Foundation
 import Lottie

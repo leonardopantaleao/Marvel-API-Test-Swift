@@ -47,5 +47,27 @@ final class ComicsListTests: XCTestCase {
         XCTAssertFalse(self.sut.isLoadingComics)
         XCTAssertTrue(self.sut.showError)
     }
+    func testFetchComicsSuccessfully() throws {
+        // given
+        let expectedResult = Comic.testData
+        let expectation = XCTestExpectation(description: "wait for fetching comics.")
+        givenSwift(self.marvelAPIClientMock.fetchComics()).will {
+            XCTAssertTrue(self.sut.isLoadingComics)
+            return Future { promise in
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                    promise(.success(Comic.testData))
+                    expectation.fulfill()
+                }
+            }
+        }
+        // when
+        self.sut.fetchComics()
+        // then
+        wait(for: [expectation])
+        verify(self.marvelAPIClientMock.fetchComics()).wasCalled(1)
+        XCTAssertFalse(self.sut.isLoadingComics)
+        XCTAssertFalse(self.sut.showError)
+        XCTAssertEqual(self.sut.comics[0].title, expectedResult[0].title)
+    }
 
 }

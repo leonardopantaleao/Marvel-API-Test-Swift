@@ -6,7 +6,8 @@
 //
 
 import Foundation
-class Comic: Decodable {
+class Comic: Decodable, Identifiable {
+    let id = UUID()
     let title: String
     let issueNumber: Int
     let description: String
