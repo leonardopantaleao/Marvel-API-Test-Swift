@@ -55,7 +55,7 @@ struct CartView: View {
                 }
                 Spacer()
                     .frame(height: 40)
-                Text("Total: ")
+                Text(self.viewModel.totalString)
                     .font(.largeTitle)
                     .foregroundColor(.marvelYellow)
                 PrimaryActionButton(

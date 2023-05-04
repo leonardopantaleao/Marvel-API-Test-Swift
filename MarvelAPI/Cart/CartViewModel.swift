@@ -27,6 +27,6 @@ class CartViewModel: ObservableObject {
         self.updateTotal()
     }
     func updateTotal() {
-        self.totalString = self.formatPrice(price: total)
+        self.totalString = "Total: \(self.formatPrice(price: total))"
     }
 }
