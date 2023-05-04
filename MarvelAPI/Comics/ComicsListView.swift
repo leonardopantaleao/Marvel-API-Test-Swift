@@ -16,7 +16,6 @@ struct ComicsListView: View {
         self.viewModel = viewModel
     }
     var body: some View {
-        NavigationView {
             ZStack(alignment: .center) {
                 Color.marvelRed
                     .edgesIgnoringSafeArea(.all)
@@ -79,7 +78,6 @@ struct ComicsListView: View {
                     .padding()
                 }
             }
-        }
     }
     func detailView(comic: Comic) -> some View {
         ZStack {
