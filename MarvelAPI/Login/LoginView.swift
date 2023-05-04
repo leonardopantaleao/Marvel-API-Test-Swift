@@ -30,7 +30,7 @@ struct LoginView: View {
                         TextField("Public Key", text: self.$viewModel.publicKey)
                             .padding(.horizontal, 40)
                             .disableAutocorrection(true)
-                        TextField("Md5 Hash", text: self.$viewModel.md5Hash)
+                        SecureField("Private Key", text: self.$viewModel.md5Hash)
                             .padding(.horizontal, 40)
                             .disableAutocorrection(true)
                     }
