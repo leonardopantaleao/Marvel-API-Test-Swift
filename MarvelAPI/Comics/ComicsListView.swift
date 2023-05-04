@@ -17,6 +17,9 @@ struct ComicsListView: View {
     }
     var body: some View {
             ZStack(alignment: .center) {
+                NavigationLink(
+                    destination: CartView(viewModel: self.viewModel.cartViewModel),
+                    isActive: self.$viewModel.isShowingCartView) { EmptyView() }
                 Color.marvelRed
                     .edgesIgnoringSafeArea(.all)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -64,7 +67,7 @@ struct ComicsListView: View {
                                             title: "Add to Cart",
                                             foregroundColor: .white,
                                             backgroundColor: .marvelBlue) {
-                                                
+                                                self.viewModel.addToCartButtonTapped(comic: comic)
                                             }
                                             .padding(.horizontal, 40)
                                             .padding(.bottom, 16)

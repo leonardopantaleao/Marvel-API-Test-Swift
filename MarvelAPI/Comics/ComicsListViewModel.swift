@@ -13,6 +13,8 @@ class ComicsListViewModel: ObservableObject {
     @Published var comics: [Comic] = []
     @Published var showError = false
     @Published var errorMessage = ""
+    @Published var isShowingCartView = false
+    var cartViewModel = CartViewModel()
     var cancellables = Set<AnyCancellable>()
     let marvelAPIClient: MarvelAPIClientProtocol
     init(marvelAPIClient: MarvelAPIClientProtocol) {
@@ -44,5 +46,10 @@ class ComicsListViewModel: ObservableObject {
         formatter.numberStyle = .currency
         formatter.locale = Locale(identifier: "en_US")
         return formatter.string(from: NSNumber(value: price)) ?? ""
+    }
+    func addToCartButtonTapped(comic: Comic) {
+        self.cartViewModel.comics.append(comic)
+        self.cartViewModel.updateTotal()
+        self.isShowingCartView = true
     }
 }

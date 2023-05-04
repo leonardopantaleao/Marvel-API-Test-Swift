@@ -25,6 +25,8 @@
 		0C8511272A0299AC0025F92F /* MarvelAPIClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8511262A0299AC0025F92F /* MarvelAPIClientError.swift */; };
 		0C85112D2A0323970025F92F /* MD5Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85112C2A0323970025F92F /* MD5Hash.swift */; };
 		0C85112F2A032A5C0025F92F /* ComicResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C85112E2A032A5C0025F92F /* ComicResponse.swift */; };
+		0C8511322A03E3F80025F92F /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8511312A03E3F80025F92F /* CartView.swift */; };
+		0C8511342A03E4050025F92F /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8511332A03E4050025F92F /* CartViewModel.swift */; };
 		0CB6B5A32A014F1F0079C6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB6B5A22A014F1F0079C6B9 /* Assets.xcassets */; };
 		0CB6B5A62A014F1F0079C6B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB6B5A52A014F1F0079C6B9 /* Preview Assets.xcassets */; };
 		0CB6B5BA2A014F1F0079C6B9 /* MarvelAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6B5B92A014F1F0079C6B9 /* MarvelAPIUITests.swift */; };
@@ -72,6 +74,8 @@
 		0C8511262A0299AC0025F92F /* MarvelAPIClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPIClientError.swift; sourceTree = "<group>"; };
 		0C85112C2A0323970025F92F /* MD5Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5Hash.swift; sourceTree = "<group>"; };
 		0C85112E2A032A5C0025F92F /* ComicResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicResponse.swift; sourceTree = "<group>"; };
+		0C8511312A03E3F80025F92F /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		0C8511332A03E4050025F92F /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
 		0CB6B59B2A014F1D0079C6B9 /* MarvelAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB6B5A22A014F1F0079C6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CB6B5A52A014F1F0079C6B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -171,6 +175,15 @@
 			path = Animations;
 			sourceTree = "<group>";
 		};
+		0C8511302A03E3E30025F92F /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				0C8511312A03E3F80025F92F /* CartView.swift */,
+				0C8511332A03E4050025F92F /* CartViewModel.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
 		0CB6B5922A014F1D0079C6B9 = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +212,7 @@
 			children = (
 				0C8511212A01B3270025F92F /* Animations */,
 				0C85111E2A01B2F80025F92F /* Lottie */,
+				0C8511302A03E3E30025F92F /* Cart */,
 				0C8511112A01616F0025F92F /* Comics */,
 				0C8511002A0156B00025F92F /* CustomViews */,
 				0C8510FF2A0156A30025F92F /* Login */,
@@ -562,8 +576,10 @@
 				0C8511042A0156DF0025F92F /* LoginViewModel.swift in Sources */,
 				0C8511272A0299AC0025F92F /* MarvelAPIClientError.swift in Sources */,
 				0C8511022A0156BF0025F92F /* LoginView.swift in Sources */,
+				0C8511322A03E3F80025F92F /* CartView.swift in Sources */,
 				0C8511142A0161A90025F92F /* ComicsListViewModel.swift in Sources */,
 				0C85110C2A01573B0025F92F /* Color+Extensions.swift in Sources */,
+				0C8511342A03E4050025F92F /* CartViewModel.swift in Sources */,
 				0C85112D2A0323970025F92F /* MD5Hash.swift in Sources */,
 				0CB6B5C92A014FF30079C6B9 /* SceneDelegate.swift in Sources */,
 				0C8511102A0161630025F92F /* ComicsListView.swift in Sources */,
