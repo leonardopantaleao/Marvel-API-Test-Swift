@@ -14,6 +14,11 @@ class ComicsListViewModel: ObservableObject {
     @Published var showError = false
     @Published var errorMessage = ""
     @Published var isShowingCartView = false
+    @Published var searchText = ""
+    var filteredComics: [Comic] {
+        self.searchText.isEmpty ?
+        self.comics : self.comics.filter { $0.title.localizedCaseInsensitiveContains(searchText) }
+    }
     var cartViewModel = CartViewModel()
     var cancellables = Set<AnyCancellable>()
     let marvelAPIClient: MarvelAPIClientProtocol
