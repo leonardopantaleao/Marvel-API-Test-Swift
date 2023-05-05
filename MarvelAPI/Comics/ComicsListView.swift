@@ -38,11 +38,13 @@ struct ComicsListView: View {
                         .foregroundColor(.marvelYellow)
                 } else {
                     ScrollView {
+                        
                         VStack {
                             Text("Comics")
                                 .font(.largeTitle)
                                 .foregroundColor(.marvelYellow)
-                            ForEach(self.viewModel.comics) { comic in
+                            SearchBar(text: self.$viewModel.searchText)
+                            ForEach(self.viewModel.filteredComics) { comic in
                                 ZStack {
                                     Color.white
                                     VStack(spacing: 20) {
